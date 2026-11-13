@@ -9,16 +9,20 @@ const PORT = 3100;
 
 export default defineConfig({
   testDir: "tests/e2e",
-  timeout: 45_000,
+  // GitHub's 2-core runners draw the map in software (no GPU), so give CI more time
+  timeout: process.env.CI ? 60_000 : 45_000,
   expect: { timeout: 15_000 },
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 1 : 0,
-  workers: process.env.CI ? 2 : undefined,
+  workers: process.env.CI ? 1 : undefined,
   reporter: process.env.CI ? [["github"], ["html", { open: "never" }]] : "list",
   use: {
     baseURL: BASE_URL ?? `http://localhost:${PORT}`,
     trace: "retain-on-failure",
+    // the app honours prefers-reduced-motion: no counter tweens or CSS transitions, so elements
+    // are stable to click and the CPU isn't spent on animation
+    contextOptions: { reducedMotion: "reduce" },
     screenshot: "only-on-failure",
     // Vercel preview deployments with Deployment Protection
     extraHTTPHeaders: process.env.VERCEL_AUTOMATION_BYPASS_SECRET

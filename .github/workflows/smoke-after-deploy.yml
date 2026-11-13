@@ -1,0 +1,58 @@
+# After Vercel finishes a deployment, run the @smoke browser tests against the live URL.
+# Vercel reports deployments to GitHub, which fires `deployment_status`.
+#
+# Production deployments are always tested. Preview deployments are tested only when the
+# repository secret VERCEL_AUTOMATION_BYPASS_SECRET is set (previews sit behind Vercel's
+# Deployment Protection). See docs/CI.md.
+name: Smoke test deployment
+
+on:
+  deployment_status:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    name: Smoke test (${{ github.event.deployment_status.environment }})
+    if: github.event.deployment_status.state == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      BASE_URL: ${{ github.event.deployment_status.environment_url || github.event.deployment_status.target_url }}
+      VERCEL_AUTOMATION_BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
+      IS_PRODUCTION: ${{ startsWith(github.event.deployment_status.environment, 'Production') }}
+    steps:
+      - name: Decide whether to run
+        id: gate
+        run: |
+          if [ "$IS_PRODUCTION" = "true" ] || [ -n "$VERCEL_AUTOMATION_BYPASS_SECRET" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Preview deployment without VERCEL_AUTOMATION_BYPASS_SECRET: skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          ref: ${{ github.event.deployment.sha }}
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          node-version: "22"
+          cache: npm
+      - if: steps.gate.outputs.run == 'true'
+        run: npm ci
+      - if: steps.gate.outputs.run == 'true'
+        run: npx playwright install --with-deps chromium
+      - name: Smoke tests against ${{ env.BASE_URL }}
+        if: steps.gate.outputs.run == 'true'
+        run: npm run test:smoke
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: smoke-report
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7

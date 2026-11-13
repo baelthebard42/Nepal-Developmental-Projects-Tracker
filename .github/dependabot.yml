@@ -1,0 +1,26 @@
+# Weekly dependency update PRs; CI runs on each one, so a breaking update shows up as a red PR.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      minor-and-patch:
+        update-types: [minor, patch]
+    ignore:
+      # MapLibre 6 breaks deck.gl's overlay (Map no longer extends Camera). Revisit when
+      # @deck.gl/mapbox supports it.
+      - dependency-name: maplibre-gl
+        update-types: ["version-update:semver-major"]
+      # Next.js majors need a manual migration (see AGENTS.md)
+      - dependency-name: next
+        update-types: ["version-update:semver-major"]
+      - dependency-name: eslint-config-next
+        update-types: ["version-update:semver-major"]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

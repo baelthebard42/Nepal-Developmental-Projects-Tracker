@@ -12,7 +12,12 @@
     "geo:build": "node scripts/geo/build.mjs",
     "seed:generate": "tsx scripts/seed/generate.ts",
     "db:migrate": "tsx scripts/db/migrate.ts",
-    "db:seed": "tsx scripts/db/seed.ts"
+    "db:seed": "tsx scripts/db/seed.ts",
+    "typecheck": "tsc --noEmit",
+    "test:db": "vitest run -c vitest.db.config.mts",
+    "test:e2e": "playwright test",
+    "test:smoke": "playwright test --grep @smoke --project desktop",
+    "ci": "npm run lint && npm run typecheck && npm test && npm run build && npm run test:e2e"
   },
   "dependencies": {
     "@deck.gl/core": "^9.4.1",
@@ -46,6 +51,7 @@
     "zustand": "^5.1.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.0",
     "@tailwindcss/turbopack": "4.3.3",
     "@turf/boolean-point-in-polygon": "^7.4.0",
     "@types/d3-scale": "^4.0.9",

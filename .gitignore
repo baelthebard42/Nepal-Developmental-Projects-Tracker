@@ -43,3 +43,11 @@ next-env.d.ts
 data/raw/
 data/build/
 docs/reference/
+test-results/
+playwright-report/
+blob-report/
+
+# test output
+/test-results/
+/playwright-report/
+/blob-report/

@@ -330,6 +330,11 @@ export default function NepalMap({ padding }: { padding: { top: number; bottom: 
     };
   }, [roles, activeLevel, areas]);
 
+  // readiness marker for end-to-end tests and anyone automating the page
+  useEffect(() => {
+    if (ready && geo) mapRef.current?.getContainer().setAttribute("data-map-ready", "true");
+  }, [ready, geo]);
+
   // ---------- 3D ----------
   useEffect(() => {
     const map = mapRef.current?.getMap();

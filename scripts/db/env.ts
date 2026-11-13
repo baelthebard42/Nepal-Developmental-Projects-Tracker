@@ -26,6 +26,7 @@ export function pgConfig(): ClientConfig {
     user: decodeURIComponent(user),
     password: (() => { try { return decodeURIComponent(password); } catch { return password; } })(),
     host, port: Number(port || 5432), database,
-    ssl: { rejectUnauthorized: false },
+    // local/CI test databases (Postgres service container) don't speak SSL; Supabase requires it
+    ssl: /^(localhost|127\.0\.0\.1|postgres)$/.test(host) || /sslmode=disable/.test(url) ? false : { rejectUnauthorized: false },
   };
 }

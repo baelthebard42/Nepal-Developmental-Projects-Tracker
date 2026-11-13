@@ -1,0 +1,70 @@
+# Applies new SQL migrations to the production Supabase database when they reach main.
+# It never seeds (seeding would wipe real data).
+#
+# Setup (docs/CI.md): create a GitHub environment named "production" with the secret
+# SUPABASE_DB_CONNECTION_STR, and optionally "Required reviewers" so a person approves each run.
+name: Database migrations
+
+on:
+  push:
+    branches: [main]
+    paths: ["supabase/migrations/**"]
+  workflow_dispatch:
+
+concurrency:
+  group: db-migrate
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Test migrations on a throwaway database
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      TEST_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run test:db
+
+  migrate:
+    name: Apply migrations to Supabase
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Check the secret is configured
+        env:
+          SUPABASE_DB_CONNECTION_STR: ${{ secrets.SUPABASE_DB_CONNECTION_STR }}
+        run: |
+          if [ -z "$SUPABASE_DB_CONNECTION_STR" ]; then
+            echo "::error::Add SUPABASE_DB_CONNECTION_STR to the 'production' environment secrets (see docs/CI.md)."
+            exit 1
+          fi
+      - name: npm run db:migrate
+        env:
+          SUPABASE_DB_CONNECTION_STR: ${{ secrets.SUPABASE_DB_CONNECTION_STR }}
+        run: npm run db:migrate

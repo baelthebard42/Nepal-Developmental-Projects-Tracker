@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nepal Development Projects Map
 
-## Getting Started
+An interactive map of development projects funded by Nepal's international partners, built for the Ministry of Foreign Affairs. Design and flow follow the Lowy Institute Pacific Aid Map, adapted to Nepal's 7 provinces, 77 districts and 753 palikas.
 
-First, run the development server:
+**Status: Phase 1 prototype.** All project figures are generated **sample data** and are labelled as such in the interface.
+
+The full plan is in [docs/PLAN.md](docs/PLAN.md).
+
+## What it does
+
+- Choropleth map of Nepal. Hover any province, district or palika for a summary; click to drill down. A breadcrumb leads back up.
+- A partner ring of flags placed by compass direction. Hover a flag to draw arcs to the places that partner funds.
+- Overview panel: animated totals, disbursements per year (click a bar to filter by year), and Partners / Locations / Sectors breakdowns linked to the map.
+- Filters for partner, sector, status, type of aid and year, plus search across places, partners and projects.
+- Project map (dots coloured by status), a summary drawer, and a full project page.
+- `/data` table: sorting, search and CSV export.
+- 3D mode, USD/NPR (lakh/crore/arba), English / Romanized Nepali, guided tour, shareable links, and a PNG export of the map.
+
+## Boundaries
+
+Boundaries come from the **Survey Department / National Geoportal** data, which includes the **2020 official map** (Kalapani, Lipulekh, Limpiyadhura).
+
+The live Geoportal server was down when the data was built, so `scripts/geo/fetch.mjs` falls back to a GeoJSON mirror of the Geoportal shapefiles. `tests/unit/border.test.ts` fails the test run if the 2020 territory is missing or if the 7 / 77 / 753 counts drift.
+
+The background is Nepal-only. Neighbouring countries are drawn as muted fills underneath Nepal, with no borders and no third-party street map.
+
+## Stack
+
+- Next.js 16 (App Router) and TypeScript, with Tailwind CSS 4.
+- MapLibre GL 5 and deck.gl 9, the latter drawn inside the MapLibre canvas.
+  - MapLibre 6 is not yet compatible with deck.gl's overlay, so this is pinned to 5.x.
+- nuqs (view state in the URL), next-intl, Motion, TanStack Table, driver.js.
+- Supabase (Postgres) holds the data: public read-only in Phase 1, enforced by row-level security.
+  - If Supabase is unreachable or paused, the app falls back to the bundled sample JSON.
+
+## Running locally
+
+Requires Node 22.12 or later.
 
 ```bash
+npm install
+cp .env.example .env    # then fill in your Supabase values (optional: without them the sample JSON is used)
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Script | What it does |
+|---|---|
+| `npm test` | Unit tests: border/2020-map test, aggregation (no double counting), money formatting |
+| `npm run geo:fetch` / `geo:build` | Download raw boundaries; rebuild `public/geo/*` (TopoJSON + area index) |
+| `npm run seed:generate` | Regenerate `supabase/seed/sample_projects.json` |
+| `npm run db:migrate` / `db:seed` | Apply `supabase/migrations/*.sql`; load areas and sample data (needs `SUPABASE_DB_CONNECTION_STR`) |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Variable | Used by |
+|---|---|
+| `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY` | App (server-side read of the `project_dataset` view) |
+| `SUPABASE_DB_CONNECTION_STR` | Only the `db:*` scripts. Never deploy it. |
 
-## Learn More
+## Credits
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Boundaries: Survey Department, Government of Nepal.
+- Neighbouring countries: Natural Earth (public domain).
+- Flags: flag-icons (MIT).
+- Label font: Noto Sans (OFL).

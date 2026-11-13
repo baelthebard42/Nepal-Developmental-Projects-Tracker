@@ -1,0 +1,7139 @@
+{
+ "source": "seed",
+ "generated_at": "2026-11-13T05:39:33.520Z",
+ "partners": [
+  {
+   "id": "japan",
+   "name_en": "Japan",
+   "name_ne": "Japan",
+   "type": "bilateral",
+   "iso2": "jp",
+   "short": "JP",
+   "hq": [
+    139.69,
+    35.69
+   ]
+  },
+  {
+   "id": "india",
+   "name_en": "India",
+   "name_ne": "Bharat",
+   "type": "bilateral",
+   "iso2": "in",
+   "short": "IN",
+   "hq": [
+    77.21,
+    28.61
+   ]
+  },
+  {
+   "id": "china",
+   "name_en": "China",
+   "name_ne": "Chin",
+   "type": "bilateral",
+   "iso2": "cn",
+   "short": "CN",
+   "hq": [
+    116.4,
+    39.9
+   ]
+  },
+  {
+   "id": "usa",
+   "name_en": "United States",
+   "name_ne": "Sanyukta Rajya America",
+   "type": "bilateral",
+   "iso2": "us",
+   "short": "US",
+   "hq": [
+    -77.04,
+    38.9
+   ]
+  },
+  {
+   "id": "uk",
+   "name_en": "United Kingdom",
+   "name_ne": "Belayat (UK)",
+   "type": "bilateral",
+   "iso2": "gb",
+   "short": "UK",
+   "hq": [
+    -0.13,
+    51.5
+   ]
+  },
+  {
+   "id": "germany",
+   "name_en": "Germany",
+   "name_ne": "Germany",
+   "type": "bilateral",
+   "iso2": "de",
+   "short": "DE",
+   "hq": [
+    13.4,
+    52.52
+   ]
+  },
+  {
+   "id": "switzerland",
+   "name_en": "Switzerland",
+   "name_ne": "Switzerland",
+   "type": "bilateral",
+   "iso2": "ch",
+   "short": "CH",
+   "hq": [
+    7.45,
+    46.95
+   ]
+  },
+  {
+   "id": "norway",
+   "name_en": "Norway",
+   "name_ne": "Norway",
+   "type": "bilateral",
+   "iso2": "no",
+   "short": "NO",
+   "hq": [
+    10.75,
+    59.91
+   ]
+  },
+  {
+   "id": "korea",
+   "name_en": "South Korea",
+   "name_ne": "Dakshin Korea",
+   "type": "bilateral",
+   "iso2": "kr",
+   "short": "KR",
+   "hq": [
+    126.98,
+    37.57
+   ]
+  },
+  {
+   "id": "australia",
+   "name_en": "Australia",
+   "name_ne": "Australia",
+   "type": "bilateral",
+   "iso2": "au",
+   "short": "AU",
+   "hq": [
+    149.13,
+    -35.28
+   ]
+  },
+  {
+   "id": "finland",
+   "name_en": "Finland",
+   "name_ne": "Finland",
+   "type": "bilateral",
+   "iso2": "fi",
+   "short": "FI",
+   "hq": [
+    24.94,
+    60.17
+   ]
+  },
+  {
+   "id": "eu",
+   "name_en": "European Union",
+   "name_ne": "Europeli Sangh",
+   "type": "multilateral",
+   "iso2": "eu",
+   "short": "EU",
+   "hq": [
+    4.35,
+    50.85
+   ]
+  },
+  {
+   "id": "adb",
+   "name_en": "Asian Development Bank",
+   "name_ne": "Asiyali Bikas Bank",
+   "type": "multilateral",
+   "iso2": null,
+   "short": "ADB",
+   "hq": [
+    121.06,
+    14.59
+   ]
+  },
+  {
+   "id": "world-bank",
+   "name_en": "World Bank",
+   "name_ne": "Bishwa Bank",
+   "type": "multilateral",
+   "iso2": null,
+   "short": "WB",
+   "hq": [
+    -77.04,
+    38.9
+   ]
+  },
+  {
+   "id": "undp",
+   "name_en": "UNDP",
+   "name_ne": "UNDP",
+   "type": "multilateral",
+   "iso2": null,
+   "short": "UNDP",
+   "hq": [
+    -73.97,
+    40.75
+   ]
+  },
+  {
+   "id": "unicef",
+   "name_en": "UNICEF",
+   "name_ne": "UNICEF",
+   "type": "multilateral",
+   "iso2": null,
+   "short": "UNICEF",
+   "hq": [
+    -73.97,
+    40.75
+   ]
+  },
+  {
+   "id": "wfp",
+   "name_en": "World Food Programme",
+   "name_ne": "Bishwa Khadya Karyakram",
+   "type": "multilateral",
+   "iso2": null,
+   "short": "WFP",
+   "hq": [
+    12.5,
+    41.9
+   ]
+  },
+  {
+   "id": "ifad",
+   "name_en": "IFAD",
+   "name_ne": "IFAD",
+   "type": "multilateral",
+   "iso2": null,
+   "short": "IFAD",
+   "hq": [
+    12.5,
+    41.9
+   ]
+  }
+ ],
+ "sectors": [
+  {
+   "code": "transport",
+   "name_en": "Transport",
+   "name_ne": "Yatayat",
+   "dac_codes": [
+    "210"
+   ]
+  },
+  {
+   "code": "energy",
+   "name_en": "Energy",
+   "name_ne": "Urja",
+   "dac_codes": [
+    "230"
+   ]
+  },
+  {
+   "code": "water",
+   "name_en": "Water & Sanitation",
+   "name_ne": "Khanepani tatha Sarsafai",
+   "dac_codes": [
+    "140"
+   ]
+  },
+  {
+   "code": "health",
+   "name_en": "Health",
+   "name_ne": "Swasthya",
+   "dac_codes": [
+    "120",
+    "130"
+   ]
+  },
+  {
+   "code": "education",
+   "name_en": "Education",
+   "name_ne": "Shiksha",
+   "dac_codes": [
+    "110"
+   ]
+  },
+  {
+   "code": "agriculture",
+   "name_en": "Agriculture & Food Security",
+   "name_ne": "Krishi tatha Khadya Surakshya",
+   "dac_codes": [
+    "310",
+    "520"
+   ]
+  },
+  {
+   "code": "governance",
+   "name_en": "Governance & Federalism",
+   "name_ne": "Sushasan tatha Sanghiyata",
+   "dac_codes": [
+    "151"
+   ]
+  },
+  {
+   "code": "disaster",
+   "name_en": "Disaster Risk & Reconstruction",
+   "name_ne": "Bipad Jokhim tatha Punarnirman",
+   "dac_codes": [
+    "730",
+    "740"
+   ]
+  },
+  {
+   "code": "climate",
+   "name_en": "Environment & Climate",
+   "name_ne": "Batabaran tatha Jalbayu",
+   "dac_codes": [
+    "410"
+   ]
+  },
+  {
+   "code": "trade",
+   "name_en": "Trade, Industry & Tourism",
+   "name_ne": "Byapar, Udyog tatha Paryatan",
+   "dac_codes": [
+    "250",
+    "320",
+    "330"
+   ]
+  },
+  {
+   "code": "social",
+   "name_en": "Social Protection & Gender",
+   "name_ne": "Samajik Surakshya tatha Laingik Samanata",
+   "dac_codes": [
+    "160"
+   ]
+  },
+  {
+   "code": "urban",
+   "name_en": "Urban Development",
+   "name_ne": "Shahari Bikas",
+   "dac_codes": [
+    "430"
+   ]
+  }
+ ],
+ "projects": [
+  {
+   "id": "SAMPLE-001",
+   "mofa_ref": "MOFA/DP/2027/001",
+   "title_en": "Kapilbastu Town Water Supply Improvement",
+   "title_ne": "Kapilbastu Bazar Khanepani Sudhar",
+   "description_en": "Sample project for demonstration only. Supports water & sanitation outcomes in Kapilbastu, financed by Japan and implemented by Department of Water Supply and Sewerage Management.",
+   "sector_code": "water",
+   "flow_type": "grant",
+   "status": "pipeline",
+   "progress_pct": 0,
+   "implementing_partner": "Department of Water Supply and Sewerage Management",
+   "start_date": "2027-05-01",
+   "end_date": "2031-05-28",
+   "agreement_date": "2026-12-14",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "japan",
+     "committed_usd": 8200000,
+     "disbursed_usd": 0
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "kapilbastu",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2026-12-14",
+     "type": "commitment",
+     "partner_id": "japan",
+     "amount_usd": 8200000,
+     "note": "Financing agreement signed"
+    }
+   ],
+   "updates": []
+  },
+  {
+   "id": "SAMPLE-002",
+   "mofa_ref": "MOFA/DP/2020/002",
+   "title_en": "Gandaki Irrigation Canal Rehabilitation",
+   "title_ne": "Gandaki Sinchai Nahar Punarsthapana",
+   "description_en": "Sample project for demonstration only. Supports water & sanitation outcomes in Gandaki Province, financed by Japan and implemented by Department of Water Supply and Sewerage Management.",
+   "sector_code": "water",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Department of Water Supply and Sewerage Management",
+   "start_date": "2020-03-01",
+   "end_date": "2023-03-28",
+   "agreement_date": "2019-08-01",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "japan",
+     "committed_usd": 14940000,
+     "disbursed_usd": 13927000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "syangja",
+     "share_pct": null
+    },
+    {
+     "area_code": "nawalpur",
+     "share_pct": null
+    },
+    {
+     "area_code": "baglung",
+     "share_pct": null
+    },
+    {
+     "area_code": "manang",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2019-08-01",
+     "type": "commitment",
+     "partner_id": "japan",
+     "amount_usd": 14940000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2020-10-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 2965000,
+     "note": null
+    },
+    {
+     "date": "2021-01-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 3470000,
+     "note": null
+    },
+    {
+     "date": "2022-11-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 4270000,
+     "note": null
+    },
+    {
+     "date": "2023-03-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 3222000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2023-03-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2021-05-23",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2020-06-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-003",
+   "mofa_ref": "MOFA/DP/2022/003",
+   "title_en": "Kanchanpur Maternal and Newborn Health",
+   "title_ne": "Kanchanpur Matri tatha Navashishu Swasthya",
+   "description_en": "Sample project for demonstration only. Supports health outcomes in Kanchanpur, financed by Japan with co-financing and implemented by Ministry of Health and Population.",
+   "sector_code": "health",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 80,
+   "implementing_partner": "Department of Health Services",
+   "start_date": "2022-02-01",
+   "end_date": "2028-02-28",
+   "agreement_date": "2021-10-23",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "japan",
+     "committed_usd": 94500000,
+     "disbursed_usd": 69087000
+    },
+    {
+     "partner_id": "india",
+     "committed_usd": 42710000,
+     "disbursed_usd": 31224000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "kanchanpur",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2021-10-23",
+     "type": "commitment",
+     "partner_id": "japan",
+     "amount_usd": 94500000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2021-10-23",
+     "type": "commitment",
+     "partner_id": "india",
+     "amount_usd": 42710000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2022-02-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 10918000,
+     "note": null
+    },
+    {
+     "date": "2022-12-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 5366000,
+     "note": null
+    },
+    {
+     "date": "2023-10-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 14902000,
+     "note": null
+    },
+    {
+     "date": "2023-12-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 6638000,
+     "note": null
+    },
+    {
+     "date": "2024-09-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 14895000,
+     "note": null
+    },
+    {
+     "date": "2024-09-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 7166000,
+     "note": null
+    },
+    {
+     "date": "2025-02-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 16604000,
+     "note": null
+    },
+    {
+     "date": "2025-04-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 6897000,
+     "note": null
+    },
+    {
+     "date": "2026-04-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 5157000,
+     "note": null
+    },
+    {
+     "date": "2026-09-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 11768000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2024-07-07",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2022-06-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-004",
+   "mofa_ref": "MOFA/DP/2016/004",
+   "title_en": "Mahalaxmi Maternal and Newborn Health",
+   "title_ne": "Mahalaxmi Matri tatha Navashishu Swasthya",
+   "description_en": "Sample project for demonstration only. Supports health outcomes in Mahalaxmi, financed by Japan and implemented by Ministry of Health and Population.",
+   "sector_code": "health",
+   "flow_type": "loan",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Ministry of Health and Population",
+   "start_date": "2016-03-01",
+   "end_date": "2021-03-28",
+   "agreement_date": "2015-08-26",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "japan",
+     "committed_usd": 75760000,
+     "disbursed_usd": 71668000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "lalitpur~mahalaxmi",
+     "share_pct": null
+    },
+    {
+     "area_code": "lalitpur~godawari",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2015-08-26",
+     "type": "commitment",
+     "partner_id": "japan",
+     "amount_usd": 75760000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2016-02-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 10036000,
+     "note": null
+    },
+    {
+     "date": "2017-07-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 12715000,
+     "note": null
+    },
+    {
+     "date": "2018-09-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 13280000,
+     "note": null
+    },
+    {
+     "date": "2019-11-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 14019000,
+     "note": null
+    },
+    {
+     "date": "2020-07-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 12081000,
+     "note": null
+    },
+    {
+     "date": "2021-07-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 9537000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2021-03-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2018-03-12",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2016-06-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-005",
+   "mofa_ref": "MOFA/DP/2018/005",
+   "title_en": "Gandaki Technical and Vocational Skills",
+   "title_ne": "Gandaki Prabidhik tatha Byabasayik Seep",
+   "description_en": "Sample project for demonstration only. Supports education outcomes in Gandaki Province, financed by Japan and implemented by Centre for Education and Human Resource Development.",
+   "sector_code": "education",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "CTEVT",
+   "start_date": "2018-03-01",
+   "end_date": "2022-03-28",
+   "agreement_date": "2017-12-23",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "japan",
+     "committed_usd": 149740000,
+     "disbursed_usd": 147049000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "P4",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2017-12-23",
+     "type": "commitment",
+     "partner_id": "japan",
+     "amount_usd": 149740000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2018-05-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 25678000,
+     "note": null
+    },
+    {
+     "date": "2019-12-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 32605000,
+     "note": null
+    },
+    {
+     "date": "2020-06-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 33150000,
+     "note": null
+    },
+    {
+     "date": "2021-10-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 32930000,
+     "note": null
+    },
+    {
+     "date": "2022-04-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 22686000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2022-03-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2019-10-17",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2018-06-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-006",
+   "mofa_ref": "MOFA/DP/2018/006",
+   "title_en": "Sankhuwasabha Hospital Upgrading",
+   "title_ne": "Sankhuwasabha Aspatal StarOnnati",
+   "description_en": "Sample project for demonstration only. Supports health outcomes in Sankhuwasabha, financed by Japan with co-financing and implemented by Ministry of Health and Population.",
+   "sector_code": "health",
+   "flow_type": "loan",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Department of Health Services",
+   "start_date": "2018-07-01",
+   "end_date": "2024-07-28",
+   "agreement_date": "2017-11-25",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "japan",
+     "committed_usd": 90900000,
+     "disbursed_usd": 89514000
+    },
+    {
+     "partner_id": "china",
+     "committed_usd": 25150000,
+     "disbursed_usd": 24767000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "sankhuwasabha",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2017-11-25",
+     "type": "commitment",
+     "partner_id": "japan",
+     "amount_usd": 90900000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2017-11-25",
+     "type": "commitment",
+     "partner_id": "china",
+     "amount_usd": 25150000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2018-04-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 2500000,
+     "note": null
+    },
+    {
+     "date": "2018-09-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 9091000,
+     "note": null
+    },
+    {
+     "date": "2019-03-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 3657000,
+     "note": null
+    },
+    {
+     "date": "2019-06-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 11096000,
+     "note": null
+    },
+    {
+     "date": "2020-02-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 15373000,
+     "note": null
+    },
+    {
+     "date": "2020-05-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 4034000,
+     "note": null
+    },
+    {
+     "date": "2021-04-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 16440000,
+     "note": null
+    },
+    {
+     "date": "2021-12-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 3966000,
+     "note": null
+    },
+    {
+     "date": "2022-04-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 12961000,
+     "note": null
+    },
+    {
+     "date": "2022-12-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 4138000,
+     "note": null
+    },
+    {
+     "date": "2023-05-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 3437000,
+     "note": null
+    },
+    {
+     "date": "2023-10-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 13320000,
+     "note": null
+    },
+    {
+     "date": "2024-08-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 11233000,
+     "note": null
+    },
+    {
+     "date": "2024-11-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 3035000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2024-07-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2020-12-04",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2018-10-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-007",
+   "mofa_ref": "MOFA/DP/2024/007",
+   "title_en": "Gulmi Maternal and Newborn Health",
+   "title_ne": "Gulmi Matri tatha Navashishu Swasthya",
+   "description_en": "Sample project for demonstration only. Supports health outcomes in Gulmi, financed by Japan and implemented by Ministry of Health and Population.",
+   "sector_code": "health",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Ministry of Health and Population",
+   "start_date": "2024-02-01",
+   "end_date": "2026-02-28",
+   "agreement_date": "2023-09-15",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "japan",
+     "committed_usd": 32550000,
+     "disbursed_usd": 32198000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "gulmi",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2023-09-15",
+     "type": "commitment",
+     "partner_id": "japan",
+     "amount_usd": 32550000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2024-03-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 10207000,
+     "note": null
+    },
+    {
+     "date": "2025-04-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 11567000,
+     "note": null
+    },
+    {
+     "date": "2026-04-15",
+     "type": "disbursement",
+     "partner_id": "japan",
+     "amount_usd": 10424000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-02-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2024-11-30",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2024-05-31",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-008",
+   "mofa_ref": "MOFA/DP/2027/008",
+   "title_en": "Bagmati Primary Health Care Strengthening",
+   "title_ne": "Bagmati Prathamik Swasthya Sewa Sudridhikaran",
+   "description_en": "Sample project for demonstration only. Supports health outcomes in Bagmati Province, financed by India and implemented by Ministry of Health and Population.",
+   "sector_code": "health",
+   "flow_type": "loan",
+   "status": "pipeline",
+   "progress_pct": 0,
+   "implementing_partner": "Ministry of Health and Population",
+   "start_date": "2027-05-01",
+   "end_date": "2033-05-28",
+   "agreement_date": "2026-09-14",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "india",
+     "committed_usd": 207940000,
+     "disbursed_usd": 0
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "rasuwa",
+     "share_pct": null
+    },
+    {
+     "area_code": "dhading",
+     "share_pct": null
+    },
+    {
+     "area_code": "dolakha",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2026-09-14",
+     "type": "commitment",
+     "partner_id": "india",
+     "amount_usd": 207940000,
+     "note": "Financing agreement signed"
+    }
+   ],
+   "updates": []
+  },
+  {
+   "id": "SAMPLE-009",
+   "mofa_ref": "MOFA/DP/2020/009",
+   "title_en": "Parbat Earthquake Housing Reconstruction",
+   "title_ne": "Parbat Bhukampa Aawas Punarnirman",
+   "description_en": "Sample project for demonstration only. Supports disaster risk & reconstruction outcomes in Parbat, financed by India and implemented by National Disaster Risk Reduction and Management Authority.",
+   "sector_code": "disaster",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "National Reconstruction Authority (legacy)",
+   "start_date": "2020-09-01",
+   "end_date": "2026-09-28",
+   "agreement_date": "2020-06-23",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "india",
+     "committed_usd": 122690000,
+     "disbursed_usd": 110495000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "parbat",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2020-06-23",
+     "type": "commitment",
+     "partner_id": "india",
+     "amount_usd": 122690000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2020-12-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 11927000,
+     "note": null
+    },
+    {
+     "date": "2021-11-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 15887000,
+     "note": null
+    },
+    {
+     "date": "2022-07-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 17644000,
+     "note": null
+    },
+    {
+     "date": "2023-02-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 20540000,
+     "note": null
+    },
+    {
+     "date": "2024-01-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 17607000,
+     "note": null
+    },
+    {
+     "date": "2025-02-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 15619000,
+     "note": null
+    },
+    {
+     "date": "2026-01-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 11271000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-09-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2023-02-05",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2020-12-30",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-010",
+   "mofa_ref": "MOFA/DP/2017/010",
+   "title_en": "Dhanusha Small Hydropower Development",
+   "title_ne": "Dhanusha Sana Jalvidyut Bikas",
+   "description_en": "Sample project for demonstration only. Supports energy outcomes in Dhanusha, financed by India and implemented by Nepal Electricity Authority.",
+   "sector_code": "energy",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Nepal Electricity Authority",
+   "start_date": "2017-03-01",
+   "end_date": "2022-03-28",
+   "agreement_date": "2016-11-11",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "india",
+     "committed_usd": 105370000,
+     "disbursed_usd": 99222000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "dhanusha",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2016-11-11",
+     "type": "commitment",
+     "partner_id": "india",
+     "amount_usd": 105370000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2017-06-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 11675000,
+     "note": null
+    },
+    {
+     "date": "2018-09-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 15364000,
+     "note": null
+    },
+    {
+     "date": "2019-08-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 20336000,
+     "note": null
+    },
+    {
+     "date": "2020-06-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 18065000,
+     "note": null
+    },
+    {
+     "date": "2021-03-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 18286000,
+     "note": null
+    },
+    {
+     "date": "2022-05-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 15496000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2022-03-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2019-03-12",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2017-06-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-011",
+   "mofa_ref": "MOFA/DP/2023/011",
+   "title_en": "Strategic Road Upgrading: Madhesh",
+   "title_ne": "Rananitik Sadak StarOnnati: Madhesh",
+   "description_en": "Sample project for demonstration only. Supports transport outcomes in Madhesh Province, financed by India and implemented by Department of Roads.",
+   "sector_code": "transport",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 75,
+   "implementing_partner": "Department of Roads",
+   "start_date": "2023-01-01",
+   "end_date": "2027-01-28",
+   "agreement_date": "2022-05-19",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "india",
+     "committed_usd": 142660000,
+     "disbursed_usd": 110701000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "rautahat",
+     "share_pct": null
+    },
+    {
+     "area_code": "saptari",
+     "share_pct": null
+    },
+    {
+     "area_code": "mahottari",
+     "share_pct": null
+    },
+    {
+     "area_code": "dhanusha",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2022-05-19",
+     "type": "commitment",
+     "partner_id": "india",
+     "amount_usd": 142660000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2023-11-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 26205000,
+     "note": null
+    },
+    {
+     "date": "2024-02-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 29674000,
+     "note": null
+    },
+    {
+     "date": "2025-04-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 32944000,
+     "note": null
+    },
+    {
+     "date": "2026-07-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 21878000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2024-08-18",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2023-05-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-012",
+   "mofa_ref": "MOFA/DP/2017/012",
+   "title_en": "Adanchuli Landslide Risk Reduction",
+   "title_ne": "Adanchuli Pahiro Jokhim Nyunikaran",
+   "description_en": "Sample project for demonstration only. Supports disaster risk & reconstruction outcomes in Adanchuli, financed by India and implemented by National Disaster Risk Reduction and Management Authority.",
+   "sector_code": "disaster",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "National Disaster Risk Reduction and Management Authority",
+   "start_date": "2017-12-01",
+   "end_date": "2023-12-28",
+   "agreement_date": "2017-06-30",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "india",
+     "committed_usd": 147540000,
+     "disbursed_usd": 145773000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "humla~adanchuli",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2017-06-30",
+     "type": "commitment",
+     "partner_id": "india",
+     "amount_usd": 147540000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2017-09-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 16681000,
+     "note": null
+    },
+    {
+     "date": "2018-05-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 22586000,
+     "note": null
+    },
+    {
+     "date": "2019-06-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 24766000,
+     "note": null
+    },
+    {
+     "date": "2020-02-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 25420000,
+     "note": null
+    },
+    {
+     "date": "2021-01-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 22008000,
+     "note": null
+    },
+    {
+     "date": "2022-05-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 19362000,
+     "note": null
+    },
+    {
+     "date": "2023-05-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 14950000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2023-12-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2020-05-06",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2018-03-31",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-013",
+   "mofa_ref": "MOFA/DP/2022/013",
+   "title_en": "Solar Mini-Grids for Nepal",
+   "title_ne": "Nepal ka lagi Saur Mini-Grid",
+   "description_en": "Sample project for demonstration only. Supports energy outcomes in all seven provinces, financed by India with co-financing and implemented by Nepal Electricity Authority.",
+   "sector_code": "energy",
+   "flow_type": "loan",
+   "status": "ongoing",
+   "progress_pct": 49,
+   "implementing_partner": "Nepal Electricity Authority",
+   "start_date": "2022-12-01",
+   "end_date": "2029-12-28",
+   "agreement_date": "2022-07-16",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "india",
+     "committed_usd": 172120000,
+     "disbursed_usd": 84315000
+    },
+    {
+     "partner_id": "germany",
+     "committed_usd": 57870000,
+     "disbursed_usd": 28348000
+    }
+   ],
+   "locations": [],
+   "transactions": [
+    {
+     "date": "2022-03-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 13527000,
+     "note": null
+    },
+    {
+     "date": "2022-03-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 4124000,
+     "note": null
+    },
+    {
+     "date": "2022-07-16",
+     "type": "commitment",
+     "partner_id": "india",
+     "amount_usd": 172120000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2022-07-16",
+     "type": "commitment",
+     "partner_id": "germany",
+     "amount_usd": 57870000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2023-01-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 19851000,
+     "note": null
+    },
+    {
+     "date": "2023-11-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 5711000,
+     "note": null
+    },
+    {
+     "date": "2024-07-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 18299000,
+     "note": null
+    },
+    {
+     "date": "2024-11-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 6226000,
+     "note": null
+    },
+    {
+     "date": "2025-02-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 19277000,
+     "note": null
+    },
+    {
+     "date": "2025-04-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 6767000,
+     "note": null
+    },
+    {
+     "date": "2026-01-15",
+     "type": "disbursement",
+     "partner_id": "india",
+     "amount_usd": 13361000,
+     "note": null
+    },
+    {
+     "date": "2026-01-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 5520000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2025-09-29",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2023-03-31",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-014",
+   "mofa_ref": "MOFA/DP/2027/014",
+   "title_en": "Jhapa Maternal and Newborn Health",
+   "title_ne": "Jhapa Matri tatha Navashishu Swasthya",
+   "description_en": "Sample project for demonstration only. Supports health outcomes in Jhapa, financed by India and implemented by Ministry of Health and Population.",
+   "sector_code": "health",
+   "flow_type": "grant",
+   "status": "pipeline",
+   "progress_pct": 0,
+   "implementing_partner": "Department of Health Services",
+   "start_date": "2027-09-01",
+   "end_date": "2033-09-28",
+   "agreement_date": "2027-03-26",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "india",
+     "committed_usd": 173950000,
+     "disbursed_usd": 0
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "jhapa",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2027-03-26",
+     "type": "commitment",
+     "partner_id": "india",
+     "amount_usd": 173950000,
+     "note": "Financing agreement signed"
+    }
+   ],
+   "updates": []
+  },
+  {
+   "id": "SAMPLE-015",
+   "mofa_ref": "MOFA/DP/2019/015",
+   "title_en": "Nepal Tourism Infrastructure",
+   "title_ne": "Nepal Paryatan Purbadhar",
+   "description_en": "Sample project for demonstration only. Supports trade, industry & tourism outcomes in all seven provinces, financed by China and implemented by Ministry of Industry, Commerce and Supplies.",
+   "sector_code": "trade",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 97,
+   "implementing_partner": "Nepal Tourism Board",
+   "start_date": "2019-10-01",
+   "end_date": "2024-10-28",
+   "agreement_date": "2019-04-30",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "china",
+     "committed_usd": 84260000,
+     "disbursed_usd": 66975000
+    }
+   ],
+   "locations": [],
+   "transactions": [
+    {
+     "date": "2019-01-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 9812000,
+     "note": null
+    },
+    {
+     "date": "2019-04-30",
+     "type": "commitment",
+     "partner_id": "china",
+     "amount_usd": 84260000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2020-12-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 11371000,
+     "note": null
+    },
+    {
+     "date": "2021-02-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 13400000,
+     "note": null
+    },
+    {
+     "date": "2022-01-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 11167000,
+     "note": null
+    },
+    {
+     "date": "2023-08-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 11965000,
+     "note": null
+    },
+    {
+     "date": "2024-04-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 9260000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2021-10-11",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2020-01-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-016",
+   "mofa_ref": "MOFA/DP/2022/016",
+   "title_en": "Anbukhaireni Highway Safety and Maintenance",
+   "title_ne": "Anbukhaireni Rajmarga Surakshya tatha Marmat",
+   "description_en": "Sample project for demonstration only. Supports transport outcomes in Anbukhaireni, financed by China and implemented by Department of Roads.",
+   "sector_code": "transport",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 97,
+   "implementing_partner": "Department of Roads",
+   "start_date": "2022-03-01",
+   "end_date": "2027-03-28",
+   "agreement_date": "2021-11-24",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "china",
+     "committed_usd": 99390000,
+     "disbursed_usd": 82119000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "tanahu~anbukhaireni",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2021-11-24",
+     "type": "commitment",
+     "partner_id": "china",
+     "amount_usd": 99390000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2022-08-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 15754000,
+     "note": null
+    },
+    {
+     "date": "2023-12-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 16515000,
+     "note": null
+    },
+    {
+     "date": "2024-11-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 17037000,
+     "note": null
+    },
+    {
+     "date": "2025-04-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 19420000,
+     "note": null
+    },
+    {
+     "date": "2026-02-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 13393000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2024-03-11",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2022-06-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-017",
+   "mofa_ref": "MOFA/DP/2027/017",
+   "title_en": "Namkha Tourism Infrastructure",
+   "title_ne": "Namkha Paryatan Purbadhar",
+   "description_en": "Sample project for demonstration only. Supports trade, industry & tourism outcomes in Namkha, financed by China and implemented by Ministry of Industry, Commerce and Supplies.",
+   "sector_code": "trade",
+   "flow_type": "loan",
+   "status": "pipeline",
+   "progress_pct": 0,
+   "implementing_partner": "Ministry of Industry, Commerce and Supplies",
+   "start_date": "2027-10-01",
+   "end_date": "2032-10-28",
+   "agreement_date": "2027-03-16",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "china",
+     "committed_usd": 35840000,
+     "disbursed_usd": 0
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "humla~namkha",
+     "share_pct": null
+    },
+    {
+     "area_code": "humla~chankheli",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2027-03-16",
+     "type": "commitment",
+     "partner_id": "china",
+     "amount_usd": 35840000,
+     "note": "Financing agreement signed"
+    }
+   ],
+   "updates": []
+  },
+  {
+   "id": "SAMPLE-018",
+   "mofa_ref": "MOFA/DP/2017/018",
+   "title_en": "Devchuli Small Enterprise Finance",
+   "title_ne": "Devchuli Sana Udyam Bitta",
+   "description_en": "Sample project for demonstration only. Supports trade, industry & tourism outcomes in Devchuli, financed by China and implemented by Ministry of Industry, Commerce and Supplies.",
+   "sector_code": "trade",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Ministry of Industry, Commerce and Supplies",
+   "start_date": "2017-07-01",
+   "end_date": "2020-07-28",
+   "agreement_date": "2017-03-16",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "china",
+     "committed_usd": 142210000,
+     "disbursed_usd": 124520000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "nawalpur~devchuli",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2017-03-16",
+     "type": "commitment",
+     "partner_id": "china",
+     "amount_usd": 142210000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2017-08-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 27146000,
+     "note": null
+    },
+    {
+     "date": "2018-03-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 32804000,
+     "note": null
+    },
+    {
+     "date": "2019-01-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 36292000,
+     "note": null
+    },
+    {
+     "date": "2020-04-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 28278000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2020-07-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2018-09-23",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2017-10-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-019",
+   "mofa_ref": "MOFA/DP/2022/019",
+   "title_en": "Nuwakot Tourism Infrastructure",
+   "title_ne": "Nuwakot Paryatan Purbadhar",
+   "description_en": "Sample project for demonstration only. Supports trade, industry & tourism outcomes in Nuwakot, financed by China and implemented by Ministry of Industry, Commerce and Supplies.",
+   "sector_code": "trade",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 84,
+   "implementing_partner": "Ministry of Industry, Commerce and Supplies",
+   "start_date": "2022-08-01",
+   "end_date": "2027-08-28",
+   "agreement_date": "2021-11-10",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "china",
+     "committed_usd": 24260000,
+     "disbursed_usd": 17107000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "nuwakot",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2021-11-10",
+     "type": "commitment",
+     "partner_id": "china",
+     "amount_usd": 24260000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2022-08-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 2991000,
+     "note": null
+    },
+    {
+     "date": "2023-06-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 3784000,
+     "note": null
+    },
+    {
+     "date": "2024-12-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 3924000,
+     "note": null
+    },
+    {
+     "date": "2025-08-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 3709000,
+     "note": null
+    },
+    {
+     "date": "2026-05-15",
+     "type": "disbursement",
+     "partner_id": "china",
+     "amount_usd": 2699000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2024-08-11",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2022-11-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-020",
+   "mofa_ref": "MOFA/DP/2017/020",
+   "title_en": "Karnali High-Value Crops and Market Access",
+   "title_ne": "Karnali Uchcha Mulya Bali tatha Bazar Pahunch",
+   "description_en": "Sample project for demonstration only. Supports agriculture & food security outcomes in Karnali Province, financed by United States and implemented by Ministry of Agriculture and Livestock Development.",
+   "sector_code": "agriculture",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Ministry of Agriculture and Livestock Development",
+   "start_date": "2017-07-01",
+   "end_date": "2019-07-28",
+   "agreement_date": "2017-01-18",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "usa",
+     "committed_usd": 56230000,
+     "disbursed_usd": 48583000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "dailekh",
+     "share_pct": null
+    },
+    {
+     "area_code": "jajarkot",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2017-01-18",
+     "type": "commitment",
+     "partner_id": "usa",
+     "amount_usd": 56230000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2017-07-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 14820000,
+     "note": null
+    },
+    {
+     "date": "2018-04-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 19865000,
+     "note": null
+    },
+    {
+     "date": "2019-01-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 13898000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2019-07-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2018-04-29",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2017-10-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-021",
+   "mofa_ref": "MOFA/DP/2017/021",
+   "title_en": "Lumbini Small Hydropower Development",
+   "title_ne": "Lumbini Sana Jalvidyut Bikas",
+   "description_en": "Sample project for demonstration only. Supports energy outcomes in Lumbini Province, financed by United States and implemented by Nepal Electricity Authority.",
+   "sector_code": "energy",
+   "flow_type": "technical_assistance",
+   "status": "ongoing",
+   "progress_pct": 94,
+   "implementing_partner": "Alternative Energy Promotion Centre",
+   "start_date": "2017-05-01",
+   "end_date": "2021-05-28",
+   "agreement_date": "2016-08-26",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "usa",
+     "committed_usd": 7350000,
+     "disbursed_usd": 6690000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "P5",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2016-08-26",
+     "type": "commitment",
+     "partner_id": "usa",
+     "amount_usd": 7350000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2017-02-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 1252000,
+     "note": null
+    },
+    {
+     "date": "2018-01-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 1521000,
+     "note": null
+    },
+    {
+     "date": "2019-01-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 1455000,
+     "note": null
+    },
+    {
+     "date": "2020-11-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 1425000,
+     "note": null
+    },
+    {
+     "date": "2021-08-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 1037000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2018-12-17",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2017-08-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-022",
+   "mofa_ref": "MOFA/DP/2016/022",
+   "title_en": "Mustang Food and Nutrition Security",
+   "title_ne": "Mustang Khadya tatha Poshan Surakshya",
+   "description_en": "Sample project for demonstration only. Supports agriculture & food security outcomes in Mustang, financed by United States and implemented by Ministry of Agriculture and Livestock Development.",
+   "sector_code": "agriculture",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Ministry of Agriculture and Livestock Development",
+   "start_date": "2016-03-01",
+   "end_date": "2023-03-28",
+   "agreement_date": "2015-07-08",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "usa",
+     "committed_usd": 57370000,
+     "disbursed_usd": 54710000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "mustang",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2015-07-08",
+     "type": "commitment",
+     "partner_id": "usa",
+     "amount_usd": 57370000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2016-03-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 5195000,
+     "note": null
+    },
+    {
+     "date": "2017-07-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 6007000,
+     "note": null
+    },
+    {
+     "date": "2018-03-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 7266000,
+     "note": null
+    },
+    {
+     "date": "2019-04-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 7932000,
+     "note": null
+    },
+    {
+     "date": "2020-04-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 8528000,
+     "note": null
+    },
+    {
+     "date": "2021-03-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 8436000,
+     "note": null
+    },
+    {
+     "date": "2022-02-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 6405000,
+     "note": null
+    },
+    {
+     "date": "2023-07-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 4941000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2023-03-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2018-12-29",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2016-06-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-023",
+   "mofa_ref": "MOFA/DP/2024/023",
+   "title_en": "Bagmati Primary Health Care Strengthening",
+   "title_ne": "Bagmati Prathamik Swasthya Sewa Sudridhikaran",
+   "description_en": "Sample project for demonstration only. Supports health outcomes in Bagmati Province, financed by United States and implemented by Ministry of Health and Population.",
+   "sector_code": "health",
+   "flow_type": "technical_assistance",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Ministry of Health and Population",
+   "start_date": "2024-09-01",
+   "end_date": "2026-09-28",
+   "agreement_date": "2024-03-25",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "usa",
+     "committed_usd": 93400000,
+     "disbursed_usd": 85243000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "nuwakot",
+     "share_pct": null
+    },
+    {
+     "area_code": "bhaktapur",
+     "share_pct": null
+    },
+    {
+     "area_code": "dhading",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2024-01-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 24449000,
+     "note": null
+    },
+    {
+     "date": "2024-03-25",
+     "type": "commitment",
+     "partner_id": "usa",
+     "amount_usd": 93400000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2025-10-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 31925000,
+     "note": null
+    },
+    {
+     "date": "2026-08-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 28869000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-09-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2025-06-30",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2024-12-30",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-024",
+   "mofa_ref": "MOFA/DP/2022/024",
+   "title_en": "Solar Mini-Grids for Koshi",
+   "title_ne": "Koshi ka lagi Saur Mini-Grid",
+   "description_en": "Sample project for demonstration only. Supports energy outcomes in Koshi Province, financed by United States and implemented by Nepal Electricity Authority.",
+   "sector_code": "energy",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 72,
+   "implementing_partner": "Alternative Energy Promotion Centre",
+   "start_date": "2022-08-01",
+   "end_date": "2028-08-28",
+   "agreement_date": "2021-11-01",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "usa",
+     "committed_usd": 59980000,
+     "disbursed_usd": 42443000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "terhathum",
+     "share_pct": null
+    },
+    {
+     "area_code": "bhojpur",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2021-11-01",
+     "type": "commitment",
+     "partner_id": "usa",
+     "amount_usd": 59980000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2022-07-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 7592000,
+     "note": null
+    },
+    {
+     "date": "2023-08-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 8503000,
+     "note": null
+    },
+    {
+     "date": "2024-02-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 9711000,
+     "note": null
+    },
+    {
+     "date": "2025-04-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 8953000,
+     "note": null
+    },
+    {
+     "date": "2026-03-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 7684000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2025-01-04",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2022-11-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-025",
+   "mofa_ref": "MOFA/DP/2017/025",
+   "title_en": "Madhesh Food and Nutrition Security",
+   "title_ne": "Madhesh Khadya tatha Poshan Surakshya",
+   "description_en": "Sample project for demonstration only. Supports agriculture & food security outcomes in Madhesh Province, financed by United States and implemented by Ministry of Agriculture and Livestock Development.",
+   "sector_code": "agriculture",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Ministry of Agriculture and Livestock Development",
+   "start_date": "2017-10-01",
+   "end_date": "2023-10-28",
+   "agreement_date": "2017-05-04",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "usa",
+     "committed_usd": 52120000,
+     "disbursed_usd": 51530000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "rautahat",
+     "share_pct": null
+    },
+    {
+     "area_code": "parsa",
+     "share_pct": null
+    },
+    {
+     "area_code": "mahottari",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2017-05-04",
+     "type": "commitment",
+     "partner_id": "usa",
+     "amount_usd": 52120000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2017-10-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 5379000,
+     "note": null
+    },
+    {
+     "date": "2018-02-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 8306000,
+     "note": null
+    },
+    {
+     "date": "2019-10-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 8255000,
+     "note": null
+    },
+    {
+     "date": "2020-03-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 8340000,
+     "note": null
+    },
+    {
+     "date": "2021-04-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 9055000,
+     "note": null
+    },
+    {
+     "date": "2022-06-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 7257000,
+     "note": null
+    },
+    {
+     "date": "2023-12-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 4938000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2023-10-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2020-03-06",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2018-01-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-026",
+   "mofa_ref": "MOFA/DP/2018/026",
+   "title_en": "Karnali Digital Public Services",
+   "title_ne": "Karnali Digital Sarvajanik Sewa",
+   "description_en": "Sample project for demonstration only. Supports governance & federalism outcomes in Karnali Province, financed by United Kingdom and implemented by Ministry of Federal Affairs and General Administration.",
+   "sector_code": "governance",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Provincial and Local Governance Support Programme",
+   "start_date": "2018-05-01",
+   "end_date": "2021-05-28",
+   "agreement_date": "2017-11-30",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "uk",
+     "committed_usd": 15650000,
+     "disbursed_usd": 15025000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "mugu",
+     "share_pct": null
+    },
+    {
+     "area_code": "humla",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2017-11-30",
+     "type": "commitment",
+     "partner_id": "uk",
+     "amount_usd": 15650000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2018-06-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 2981000,
+     "note": null
+    },
+    {
+     "date": "2019-07-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 4332000,
+     "note": null
+    },
+    {
+     "date": "2020-04-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 4185000,
+     "note": null
+    },
+    {
+     "date": "2021-08-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 3527000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2021-05-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2019-07-24",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2018-08-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-027",
+   "mofa_ref": "MOFA/DP/2017/027",
+   "title_en": "Kathmandu Earthquake Housing Reconstruction",
+   "title_ne": "Kathmandu Bhukampa Aawas Punarnirman",
+   "description_en": "Sample project for demonstration only. Supports disaster risk & reconstruction outcomes in Kathmandu, financed by United Kingdom and implemented by National Disaster Risk Reduction and Management Authority.",
+   "sector_code": "disaster",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "National Disaster Risk Reduction and Management Authority",
+   "start_date": "2017-01-01",
+   "end_date": "2022-01-28",
+   "agreement_date": "2016-09-03",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "uk",
+     "committed_usd": 80430000,
+     "disbursed_usd": 69410000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "kathmandu",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2016-09-03",
+     "type": "commitment",
+     "partner_id": "uk",
+     "amount_usd": 80430000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2017-04-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 10854000,
+     "note": null
+    },
+    {
+     "date": "2018-01-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 11909000,
+     "note": null
+    },
+    {
+     "date": "2019-10-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 12374000,
+     "note": null
+    },
+    {
+     "date": "2020-03-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 12815000,
+     "note": null
+    },
+    {
+     "date": "2021-08-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 11284000,
+     "note": null
+    },
+    {
+     "date": "2022-05-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 10174000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2022-01-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2019-01-12",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2017-05-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-028",
+   "mofa_ref": "MOFA/DP/2019/028",
+   "title_en": "Melung Earthquake Housing Reconstruction",
+   "title_ne": "Melung Bhukampa Aawas Punarnirman",
+   "description_en": "Sample project for demonstration only. Supports disaster risk & reconstruction outcomes in Melung, financed by United Kingdom and implemented by National Disaster Risk Reduction and Management Authority.",
+   "sector_code": "disaster",
+   "flow_type": "technical_assistance",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "National Reconstruction Authority (legacy)",
+   "start_date": "2019-02-01",
+   "end_date": "2026-02-28",
+   "agreement_date": "2018-10-28",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "uk",
+     "committed_usd": 42840000,
+     "disbursed_usd": 39477000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "dolakha~melung",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2018-10-28",
+     "type": "commitment",
+     "partner_id": "uk",
+     "amount_usd": 42840000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2019-11-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 4169000,
+     "note": null
+    },
+    {
+     "date": "2020-01-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 4262000,
+     "note": null
+    },
+    {
+     "date": "2021-06-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 4730000,
+     "note": null
+    },
+    {
+     "date": "2022-05-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 5662000,
+     "note": null
+    },
+    {
+     "date": "2023-02-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 6065000,
+     "note": null
+    },
+    {
+     "date": "2024-03-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 5616000,
+     "note": null
+    },
+    {
+     "date": "2025-06-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 4868000,
+     "note": null
+    },
+    {
+     "date": "2026-07-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 4105000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-02-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2021-11-30",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2019-06-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-029",
+   "mofa_ref": "MOFA/DP/2019/029",
+   "title_en": "Provincial Public Finance: Baglung",
+   "title_ne": "Pradesh Sarvajanik Bitta: Baglung",
+   "description_en": "Sample project for demonstration only. Supports governance & federalism outcomes in Baglung, financed by United Kingdom and implemented by Ministry of Federal Affairs and General Administration.",
+   "sector_code": "governance",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Provincial and Local Governance Support Programme",
+   "start_date": "2019-03-01",
+   "end_date": "2022-03-28",
+   "agreement_date": "2018-09-08",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "uk",
+     "committed_usd": 80860000,
+     "disbursed_usd": 76707000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "baglung",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2018-09-08",
+     "type": "commitment",
+     "partner_id": "uk",
+     "amount_usd": 80860000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2019-07-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 18826000,
+     "note": null
+    },
+    {
+     "date": "2020-07-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 22438000,
+     "note": null
+    },
+    {
+     "date": "2021-08-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 19003000,
+     "note": null
+    },
+    {
+     "date": "2022-01-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 16440000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2022-03-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2020-05-23",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2019-06-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-030",
+   "mofa_ref": "MOFA/DP/2021/030",
+   "title_en": "Pyuthan Landslide Risk Reduction",
+   "title_ne": "Pyuthan Pahiro Jokhim Nyunikaran",
+   "description_en": "Sample project for demonstration only. Supports disaster risk & reconstruction outcomes in Pyuthan, financed by United Kingdom and implemented by National Disaster Risk Reduction and Management Authority.",
+   "sector_code": "disaster",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "National Disaster Risk Reduction and Management Authority",
+   "start_date": "2021-06-01",
+   "end_date": "2026-06-28",
+   "agreement_date": "2020-09-26",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "uk",
+     "committed_usd": 78710000,
+     "disbursed_usd": 74456000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "pyuthan~pyuthan",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2020-09-26",
+     "type": "commitment",
+     "partner_id": "uk",
+     "amount_usd": 78710000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2021-12-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 9479000,
+     "note": null
+    },
+    {
+     "date": "2022-07-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 14127000,
+     "note": null
+    },
+    {
+     "date": "2023-07-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 15403000,
+     "note": null
+    },
+    {
+     "date": "2024-08-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 14791000,
+     "note": null
+    },
+    {
+     "date": "2025-04-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 12042000,
+     "note": null
+    },
+    {
+     "date": "2026-09-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 8614000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-06-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2023-06-12",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2021-09-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-031",
+   "mofa_ref": "MOFA/DP/2017/031",
+   "title_en": "Gorkha Tourism Infrastructure",
+   "title_ne": "Gorkha Paryatan Purbadhar",
+   "description_en": "Sample project for demonstration only. Supports trade, industry & tourism outcomes in Gorkha, financed by Germany and implemented by Ministry of Industry, Commerce and Supplies.",
+   "sector_code": "trade",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 85,
+   "implementing_partner": "Ministry of Industry, Commerce and Supplies",
+   "start_date": "2017-09-01",
+   "end_date": "2020-09-28",
+   "agreement_date": "2016-11-29",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "germany",
+     "committed_usd": 35070000,
+     "disbursed_usd": 30334000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "gorkha",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2016-11-29",
+     "type": "commitment",
+     "partner_id": "germany",
+     "amount_usd": 35070000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2017-10-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 7068000,
+     "note": null
+    },
+    {
+     "date": "2018-01-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 8161000,
+     "note": null
+    },
+    {
+     "date": "2019-08-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 7850000,
+     "note": null
+    },
+    {
+     "date": "2020-02-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 7255000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2018-11-24",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2017-12-30",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-032",
+   "mofa_ref": "MOFA/DP/2021/032",
+   "title_en": "Lumbini Trade Logistics and Dry Port",
+   "title_ne": "Lumbini Byapar Logistics tatha Sukkha Bandargah",
+   "description_en": "Sample project for demonstration only. Supports trade, industry & tourism outcomes in Lumbini Province, financed by Germany and implemented by Ministry of Industry, Commerce and Supplies.",
+   "sector_code": "trade",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 97,
+   "implementing_partner": "Ministry of Industry, Commerce and Supplies",
+   "start_date": "2021-05-01",
+   "end_date": "2023-05-28",
+   "agreement_date": "2021-02-03",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "germany",
+     "committed_usd": 25610000,
+     "disbursed_usd": 24330000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "pyuthan",
+     "share_pct": null
+    },
+    {
+     "area_code": "gulmi",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2021-02-03",
+     "type": "commitment",
+     "partner_id": "germany",
+     "amount_usd": 25610000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2021-04-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 7100000,
+     "note": null
+    },
+    {
+     "date": "2022-11-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 9575000,
+     "note": null
+    },
+    {
+     "date": "2023-04-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 7655000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2022-02-27",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2021-08-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-033",
+   "mofa_ref": "MOFA/DP/2019/033",
+   "title_en": "Lumbini Hospital Upgrading",
+   "title_ne": "Lumbini Aspatal StarOnnati",
+   "description_en": "Sample project for demonstration only. Supports health outcomes in Lumbini Province, financed by Germany and implemented by Ministry of Health and Population.",
+   "sector_code": "health",
+   "flow_type": "technical_assistance",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Ministry of Health and Population",
+   "start_date": "2019-05-01",
+   "end_date": "2021-05-28",
+   "agreement_date": "2018-08-20",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "germany",
+     "committed_usd": 15640000,
+     "disbursed_usd": 14594000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "kapilbastu",
+     "share_pct": null
+    },
+    {
+     "area_code": "dang",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2018-08-20",
+     "type": "commitment",
+     "partner_id": "germany",
+     "amount_usd": 15640000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2019-06-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 4448000,
+     "note": null
+    },
+    {
+     "date": "2020-05-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 5554000,
+     "note": null
+    },
+    {
+     "date": "2021-11-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 4592000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2021-05-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2020-02-28",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2019-08-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-034",
+   "mofa_ref": "MOFA/DP/2020/034",
+   "title_en": "Mustang Small Hydropower Development",
+   "title_ne": "Mustang Sana Jalvidyut Bikas",
+   "description_en": "Sample project for demonstration only. Supports energy outcomes in Mustang, financed by Germany with co-financing and implemented by Nepal Electricity Authority.",
+   "sector_code": "energy",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 71,
+   "implementing_partner": "Alternative Energy Promotion Centre",
+   "start_date": "2020-12-01",
+   "end_date": "2026-12-28",
+   "agreement_date": "2020-04-14",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "germany",
+     "committed_usd": 29180000,
+     "disbursed_usd": 19827000
+    },
+    {
+     "partner_id": "usa",
+     "committed_usd": 4980000,
+     "disbursed_usd": 3384000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "mustang",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2020-04-14",
+     "type": "commitment",
+     "partner_id": "germany",
+     "amount_usd": 29180000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2020-04-14",
+     "type": "commitment",
+     "partner_id": "usa",
+     "amount_usd": 4980000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2020-04-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 2423000,
+     "note": null
+    },
+    {
+     "date": "2020-06-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 347000,
+     "note": null
+    },
+    {
+     "date": "2021-01-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 2728000,
+     "note": null
+    },
+    {
+     "date": "2021-12-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 508000,
+     "note": null
+    },
+    {
+     "date": "2022-12-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 3691000,
+     "note": null
+    },
+    {
+     "date": "2022-12-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 555000,
+     "note": null
+    },
+    {
+     "date": "2023-09-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 591000,
+     "note": null
+    },
+    {
+     "date": "2023-10-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 3207000,
+     "note": null
+    },
+    {
+     "date": "2024-04-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 3127000,
+     "note": null
+    },
+    {
+     "date": "2024-11-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 557000,
+     "note": null
+    },
+    {
+     "date": "2025-11-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 2753000,
+     "note": null
+    },
+    {
+     "date": "2025-12-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 461000,
+     "note": null
+    },
+    {
+     "date": "2026-07-15",
+     "type": "disbursement",
+     "partner_id": "germany",
+     "amount_usd": 1898000,
+     "note": null
+    },
+    {
+     "date": "2026-08-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 365000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2023-05-07",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2021-03-31",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-035",
+   "mofa_ref": "MOFA/DP/2019/035",
+   "title_en": "Sindhuli Local Government Capacity Building",
+   "title_ne": "Sindhuli Sthaniya Sarkar Kshamata Bikas",
+   "description_en": "Sample project for demonstration only. Supports governance & federalism outcomes in Sindhuli, financed by Switzerland and implemented by Ministry of Federal Affairs and General Administration.",
+   "sector_code": "governance",
+   "flow_type": "technical_assistance",
+   "status": "ongoing",
+   "progress_pct": 92,
+   "implementing_partner": "Ministry of Federal Affairs and General Administration",
+   "start_date": "2019-10-01",
+   "end_date": "2024-10-28",
+   "agreement_date": "2019-04-12",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "switzerland",
+     "committed_usd": 32050000,
+     "disbursed_usd": 29931000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "sindhuli",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2019-02-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 4495000,
+     "note": null
+    },
+    {
+     "date": "2019-04-12",
+     "type": "commitment",
+     "partner_id": "switzerland",
+     "amount_usd": 32050000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2020-02-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 4735000,
+     "note": null
+    },
+    {
+     "date": "2021-05-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 5849000,
+     "note": null
+    },
+    {
+     "date": "2022-10-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 5816000,
+     "note": null
+    },
+    {
+     "date": "2023-06-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 4679000,
+     "note": null
+    },
+    {
+     "date": "2024-03-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 4357000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2021-10-11",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2020-01-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-036",
+   "mofa_ref": "MOFA/DP/2018/036",
+   "title_en": "Terhathum Local Government Capacity Building",
+   "title_ne": "Terhathum Sthaniya Sarkar Kshamata Bikas",
+   "description_en": "Sample project for demonstration only. Supports governance & federalism outcomes in Terhathum, financed by Switzerland and implemented by Ministry of Federal Affairs and General Administration.",
+   "sector_code": "governance",
+   "flow_type": "technical_assistance",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Provincial and Local Governance Support Programme",
+   "start_date": "2018-12-01",
+   "end_date": "2025-12-28",
+   "agreement_date": "2018-09-06",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "switzerland",
+     "committed_usd": 10850000,
+     "disbursed_usd": 9395000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "terhathum",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2018-08-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 848000,
+     "note": null
+    },
+    {
+     "date": "2018-09-06",
+     "type": "commitment",
+     "partner_id": "switzerland",
+     "amount_usd": 10850000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2019-08-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 1240000,
+     "note": null
+    },
+    {
+     "date": "2020-12-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 1444000,
+     "note": null
+    },
+    {
+     "date": "2021-06-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 1288000,
+     "note": null
+    },
+    {
+     "date": "2022-09-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 1246000,
+     "note": null
+    },
+    {
+     "date": "2023-06-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 1369000,
+     "note": null
+    },
+    {
+     "date": "2024-11-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 1063000,
+     "note": null
+    },
+    {
+     "date": "2025-02-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 897000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2025-12-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2021-09-29",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2019-03-31",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-037",
+   "mofa_ref": "MOFA/DP/2020/037",
+   "title_en": "Nepal School Sector Support",
+   "title_ne": "Nepal Vidyalaya Kshetra Sahayog",
+   "description_en": "Sample project for demonstration only. Supports education outcomes in all seven provinces, financed by Switzerland and implemented by Centre for Education and Human Resource Development.",
+   "sector_code": "education",
+   "flow_type": "technical_assistance",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "CTEVT",
+   "start_date": "2020-05-01",
+   "end_date": "2024-05-28",
+   "agreement_date": "2020-02-07",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "switzerland",
+     "committed_usd": 41610000,
+     "disbursed_usd": 41414000
+    }
+   ],
+   "locations": [],
+   "transactions": [
+    {
+     "date": "2020-02-07",
+     "type": "commitment",
+     "partner_id": "switzerland",
+     "amount_usd": 41610000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2020-12-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 8195000,
+     "note": null
+    },
+    {
+     "date": "2021-03-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 8676000,
+     "note": null
+    },
+    {
+     "date": "2022-08-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 9210000,
+     "note": null
+    },
+    {
+     "date": "2023-06-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 9230000,
+     "note": null
+    },
+    {
+     "date": "2024-09-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 6103000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2024-05-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2021-12-17",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2020-08-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-038",
+   "mofa_ref": "MOFA/DP/2024/038",
+   "title_en": "Nepal Rural Road Connectivity Improvement",
+   "title_ne": "Nepal Grameen Sadak Sanjal Sudhar",
+   "description_en": "Sample project for demonstration only. Supports transport outcomes in all seven provinces, financed by Switzerland and implemented by Department of Roads.",
+   "sector_code": "transport",
+   "flow_type": "technical_assistance",
+   "status": "suspended",
+   "progress_pct": 32,
+   "implementing_partner": "Ministry of Physical Infrastructure and Transport",
+   "start_date": "2024-08-01",
+   "end_date": "2029-08-28",
+   "agreement_date": "2024-04-30",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "switzerland",
+     "committed_usd": 43250000,
+     "disbursed_usd": 11434000
+    }
+   ],
+   "locations": [],
+   "transactions": [
+    {
+     "date": "2024-04-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 3318000,
+     "note": null
+    },
+    {
+     "date": "2024-04-30",
+     "type": "commitment",
+     "partner_id": "switzerland",
+     "amount_usd": 43250000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2025-02-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 4254000,
+     "note": null
+    },
+    {
+     "date": "2026-08-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 3862000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-08-15",
+     "body_en": "Works temporarily suspended pending resolution of land acquisition issues.",
+     "progress_pct": 32
+    },
+    {
+     "date": "2026-08-12",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 32
+    },
+    {
+     "date": "2024-11-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-039",
+   "mofa_ref": "MOFA/DP/2019/039",
+   "title_en": "Safe Schools Reconstruction: Baijanath",
+   "title_ne": "Surakshit Vidyalaya Punarnirman: Baijanath",
+   "description_en": "Sample project for demonstration only. Supports education outcomes in Baijanath, financed by Switzerland and implemented by Centre for Education and Human Resource Development.",
+   "sector_code": "education",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "CTEVT",
+   "start_date": "2019-06-01",
+   "end_date": "2022-06-28",
+   "agreement_date": "2018-11-21",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "switzerland",
+     "committed_usd": 39030000,
+     "disbursed_usd": 36521000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "banke~baijanath",
+     "share_pct": null
+    },
+    {
+     "area_code": "banke~janki",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2018-11-21",
+     "type": "commitment",
+     "partner_id": "switzerland",
+     "amount_usd": 39030000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2019-10-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 7701000,
+     "note": null
+    },
+    {
+     "date": "2020-06-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 10887000,
+     "note": null
+    },
+    {
+     "date": "2021-09-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 10215000,
+     "note": null
+    },
+    {
+     "date": "2022-11-15",
+     "type": "disbursement",
+     "partner_id": "switzerland",
+     "amount_usd": 7718000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2022-06-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2020-08-23",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2019-09-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-040",
+   "mofa_ref": "MOFA/DP/2018/040",
+   "title_en": "Rautahat Watershed Management",
+   "title_ne": "Rautahat Jalaadhar Byabasthapan",
+   "description_en": "Sample project for demonstration only. Supports environment & climate outcomes in Rautahat, financed by Norway and implemented by Ministry of Forests and Environment.",
+   "sector_code": "climate",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 97,
+   "implementing_partner": "Ministry of Forests and Environment",
+   "start_date": "2018-11-01",
+   "end_date": "2021-11-28",
+   "agreement_date": "2018-01-21",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "norway",
+     "committed_usd": 39540000,
+     "disbursed_usd": 37501000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "rautahat",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2018-01-21",
+     "type": "commitment",
+     "partner_id": "norway",
+     "amount_usd": 39540000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2018-06-15",
+     "type": "disbursement",
+     "partner_id": "norway",
+     "amount_usd": 7676000,
+     "note": null
+    },
+    {
+     "date": "2019-04-15",
+     "type": "disbursement",
+     "partner_id": "norway",
+     "amount_usd": 10180000,
+     "note": null
+    },
+    {
+     "date": "2020-10-15",
+     "type": "disbursement",
+     "partner_id": "norway",
+     "amount_usd": 11888000,
+     "note": null
+    },
+    {
+     "date": "2021-09-15",
+     "type": "disbursement",
+     "partner_id": "norway",
+     "amount_usd": 7757000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2020-01-24",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2019-03-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-041",
+   "mofa_ref": "MOFA/DP/2024/041",
+   "title_en": "Masta School Sector Support",
+   "title_ne": "Masta Vidyalaya Kshetra Sahayog",
+   "description_en": "Sample project for demonstration only. Supports education outcomes in Masta, financed by Norway and implemented by Centre for Education and Human Resource Development.",
+   "sector_code": "education",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "CTEVT",
+   "start_date": "2024-02-01",
+   "end_date": "2026-02-28",
+   "agreement_date": "2023-09-19",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "norway",
+     "committed_usd": 11550000,
+     "disbursed_usd": 10156000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "bajhang~masta",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2023-09-19",
+     "type": "commitment",
+     "partner_id": "norway",
+     "amount_usd": 11550000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2024-08-15",
+     "type": "disbursement",
+     "partner_id": "norway",
+     "amount_usd": 3450000,
+     "note": null
+    },
+    {
+     "date": "2025-08-15",
+     "type": "disbursement",
+     "partner_id": "norway",
+     "amount_usd": 3628000,
+     "note": null
+    },
+    {
+     "date": "2026-08-15",
+     "type": "disbursement",
+     "partner_id": "norway",
+     "amount_usd": 3078000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-02-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2024-11-30",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2024-05-31",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-042",
+   "mofa_ref": "MOFA/DP/2024/042",
+   "title_en": "Lumbini Watershed Management",
+   "title_ne": "Lumbini Jalaadhar Byabasthapan",
+   "description_en": "Sample project for demonstration only. Supports environment & climate outcomes in Lumbini Province, financed by Norway and implemented by Ministry of Forests and Environment.",
+   "sector_code": "climate",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 44,
+   "implementing_partner": "Department of Hydrology and Meteorology",
+   "start_date": "2024-09-01",
+   "end_date": "2029-09-28",
+   "agreement_date": "2024-03-14",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "norway",
+     "committed_usd": 5390000,
+     "disbursed_usd": 2467000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "palpa",
+     "share_pct": null
+    },
+    {
+     "area_code": "pyuthan",
+     "share_pct": null
+    },
+    {
+     "area_code": "rupandehi",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2024-03-14",
+     "type": "commitment",
+     "partner_id": "norway",
+     "amount_usd": 5390000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2024-03-15",
+     "type": "disbursement",
+     "partner_id": "norway",
+     "amount_usd": 735000,
+     "note": null
+    },
+    {
+     "date": "2025-06-15",
+     "type": "disbursement",
+     "partner_id": "norway",
+     "amount_usd": 922000,
+     "note": null
+    },
+    {
+     "date": "2026-09-15",
+     "type": "disbursement",
+     "partner_id": "norway",
+     "amount_usd": 810000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-09-12",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2024-12-30",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-043",
+   "mofa_ref": "MOFA/DP/2022/043",
+   "title_en": "Namkha Municipal Infrastructure",
+   "title_ne": "Namkha Nagar Purbadhar",
+   "description_en": "Sample project for demonstration only. Supports urban development outcomes in Namkha, financed by South Korea and implemented by Department of Urban Development and Building Construction.",
+   "sector_code": "urban",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 65,
+   "implementing_partner": "Department of Urban Development and Building Construction",
+   "start_date": "2022-02-01",
+   "end_date": "2028-02-28",
+   "agreement_date": "2021-07-06",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "korea",
+     "committed_usd": 3240000,
+     "disbursed_usd": 2140000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "humla~namkha",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2021-07-06",
+     "type": "commitment",
+     "partner_id": "korea",
+     "amount_usd": 3240000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2022-04-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 359000,
+     "note": null
+    },
+    {
+     "date": "2023-03-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 513000,
+     "note": null
+    },
+    {
+     "date": "2024-09-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 448000,
+     "note": null
+    },
+    {
+     "date": "2025-01-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 487000,
+     "note": null
+    },
+    {
+     "date": "2026-03-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 333000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2024-07-07",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2022-06-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-044",
+   "mofa_ref": "MOFA/DP/2016/044",
+   "title_en": "Lumbini Municipal Infrastructure",
+   "title_ne": "Lumbini Nagar Purbadhar",
+   "description_en": "Sample project for demonstration only. Supports urban development outcomes in Lumbini Province, financed by South Korea and implemented by Department of Urban Development and Building Construction.",
+   "sector_code": "urban",
+   "flow_type": "loan",
+   "status": "ongoing",
+   "progress_pct": 97,
+   "implementing_partner": "Department of Urban Development and Building Construction",
+   "start_date": "2016-03-01",
+   "end_date": "2022-03-28",
+   "agreement_date": "2015-06-25",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "korea",
+     "committed_usd": 39040000,
+     "disbursed_usd": 32352000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "bardiya",
+     "share_pct": null
+    },
+    {
+     "area_code": "pyuthan",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2015-06-25",
+     "type": "commitment",
+     "partner_id": "korea",
+     "amount_usd": 39040000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2016-12-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 4155000,
+     "note": null
+    },
+    {
+     "date": "2017-07-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 4724000,
+     "note": null
+    },
+    {
+     "date": "2018-12-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 4995000,
+     "note": null
+    },
+    {
+     "date": "2019-01-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 5672000,
+     "note": null
+    },
+    {
+     "date": "2020-11-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 4750000,
+     "note": null
+    },
+    {
+     "date": "2021-01-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 4745000,
+     "note": null
+    },
+    {
+     "date": "2022-11-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 3311000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2018-08-05",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2016-06-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-045",
+   "mofa_ref": "MOFA/DP/2017/045",
+   "title_en": "Bagmati Primary Health Care Strengthening",
+   "title_ne": "Bagmati Prathamik Swasthya Sewa Sudridhikaran",
+   "description_en": "Sample project for demonstration only. Supports health outcomes in Bagmati Province, financed by South Korea and implemented by Ministry of Health and Population.",
+   "sector_code": "health",
+   "flow_type": "loan",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Department of Health Services",
+   "start_date": "2017-05-01",
+   "end_date": "2019-05-28",
+   "agreement_date": "2017-01-06",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "korea",
+     "committed_usd": 43110000,
+     "disbursed_usd": 41932000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "lalitpur",
+     "share_pct": null
+    },
+    {
+     "area_code": "nuwakot",
+     "share_pct": null
+    },
+    {
+     "area_code": "sindhuli",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2017-01-06",
+     "type": "commitment",
+     "partner_id": "korea",
+     "amount_usd": 43110000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2017-01-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 12747000,
+     "note": null
+    },
+    {
+     "date": "2018-04-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 16478000,
+     "note": null
+    },
+    {
+     "date": "2019-05-15",
+     "type": "disbursement",
+     "partner_id": "korea",
+     "amount_usd": 12707000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2019-05-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2018-02-27",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2017-08-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-046",
+   "mofa_ref": "MOFA/DP/2027/046",
+   "title_en": "Makalu Inclusive Livelihoods",
+   "title_ne": "Makalu Samabeshi Jeevikopārjan",
+   "description_en": "Sample project for demonstration only. Supports social protection & gender outcomes in Makalu, financed by Australia and implemented by Ministry of Women, Children and Senior Citizens.",
+   "sector_code": "social",
+   "flow_type": "grant",
+   "status": "pipeline",
+   "progress_pct": 0,
+   "implementing_partner": "Department of National ID and Civil Registration",
+   "start_date": "2027-11-01",
+   "end_date": "2033-11-28",
+   "agreement_date": "2027-08-19",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "australia",
+     "committed_usd": 17720000,
+     "disbursed_usd": 0
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "sankhuwasabha~makalu",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2027-08-19",
+     "type": "commitment",
+     "partner_id": "australia",
+     "amount_usd": 17720000,
+     "note": "Financing agreement signed"
+    }
+   ],
+   "updates": []
+  },
+  {
+   "id": "SAMPLE-047",
+   "mofa_ref": "MOFA/DP/2025/047",
+   "title_en": "Myagang Child Grant and Social Protection",
+   "title_ne": "Myagang Bal Anudan tatha Samajik Surakshya",
+   "description_en": "Sample project for demonstration only. Supports social protection & gender outcomes in Myagang, financed by Australia with co-financing and implemented by Ministry of Women, Children and Senior Citizens.",
+   "sector_code": "social",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 36,
+   "implementing_partner": "Ministry of Women, Children and Senior Citizens",
+   "start_date": "2025-02-01",
+   "end_date": "2029-02-28",
+   "agreement_date": "2024-11-12",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "australia",
+     "committed_usd": 19920000,
+     "disbursed_usd": 5870000
+    },
+    {
+     "partner_id": "undp",
+     "committed_usd": 6440000,
+     "disbursed_usd": 1898000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "nuwakot~myagang",
+     "share_pct": null
+    },
+    {
+     "area_code": "nuwakot~belkotgadhi",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2024-11-12",
+     "type": "commitment",
+     "partner_id": "australia",
+     "amount_usd": 19920000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2024-11-12",
+     "type": "commitment",
+     "partner_id": "undp",
+     "amount_usd": 6440000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2025-03-15",
+     "type": "disbursement",
+     "partner_id": "australia",
+     "amount_usd": 2646000,
+     "note": null
+    },
+    {
+     "date": "2025-10-15",
+     "type": "disbursement",
+     "partner_id": "undp",
+     "amount_usd": 952000,
+     "note": null
+    },
+    {
+     "date": "2026-03-15",
+     "type": "disbursement",
+     "partner_id": "undp",
+     "amount_usd": 946000,
+     "note": null
+    },
+    {
+     "date": "2026-08-15",
+     "type": "disbursement",
+     "partner_id": "australia",
+     "amount_usd": 3224000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-09-19",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 36
+    },
+    {
+     "date": "2025-06-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-048",
+   "mofa_ref": "MOFA/DP/2025/048",
+   "title_en": "Garuda Drinking Water and Sanitation",
+   "title_ne": "Garuda Khanepani tatha Sarsafai",
+   "description_en": "Sample project for demonstration only. Supports water & sanitation outcomes in Garuda, financed by Finland and implemented by Department of Water Supply and Sewerage Management.",
+   "sector_code": "water",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 16,
+   "implementing_partner": "Department of Water Resources and Irrigation",
+   "start_date": "2025-05-01",
+   "end_date": "2032-05-28",
+   "agreement_date": "2025-02-07",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "finland",
+     "committed_usd": 12090000,
+     "disbursed_usd": 1953000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "rautahat~garuda",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2025-02-07",
+     "type": "commitment",
+     "partner_id": "finland",
+     "amount_usd": 12090000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2025-06-15",
+     "type": "disbursement",
+     "partner_id": "finland",
+     "amount_usd": 930000,
+     "note": null
+    },
+    {
+     "date": "2026-05-15",
+     "type": "disbursement",
+     "partner_id": "finland",
+     "amount_usd": 1023000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2025-08-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-049",
+   "mofa_ref": "MOFA/DP/2018/049",
+   "title_en": "Koshi Town Water Supply Improvement",
+   "title_ne": "Koshi Bazar Khanepani Sudhar",
+   "description_en": "Sample project for demonstration only. Supports water & sanitation outcomes in Koshi Province, financed by Finland and implemented by Department of Water Supply and Sewerage Management.",
+   "sector_code": "water",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Department of Water Supply and Sewerage Management",
+   "start_date": "2018-04-01",
+   "end_date": "2023-04-28",
+   "agreement_date": "2017-07-11",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "finland",
+     "committed_usd": 27580000,
+     "disbursed_usd": 24425000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "bhojpur",
+     "share_pct": null
+    },
+    {
+     "area_code": "dhankuta",
+     "share_pct": null
+    },
+    {
+     "area_code": "udayapur",
+     "share_pct": null
+    },
+    {
+     "area_code": "morang",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2017-07-11",
+     "type": "commitment",
+     "partner_id": "finland",
+     "amount_usd": 27580000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2018-06-15",
+     "type": "disbursement",
+     "partner_id": "finland",
+     "amount_usd": 2924000,
+     "note": null
+    },
+    {
+     "date": "2019-01-15",
+     "type": "disbursement",
+     "partner_id": "finland",
+     "amount_usd": 4265000,
+     "note": null
+    },
+    {
+     "date": "2020-02-15",
+     "type": "disbursement",
+     "partner_id": "finland",
+     "amount_usd": 4676000,
+     "note": null
+    },
+    {
+     "date": "2021-01-15",
+     "type": "disbursement",
+     "partner_id": "finland",
+     "amount_usd": 4459000,
+     "note": null
+    },
+    {
+     "date": "2022-08-15",
+     "type": "disbursement",
+     "partner_id": "finland",
+     "amount_usd": 4414000,
+     "note": null
+    },
+    {
+     "date": "2023-06-15",
+     "type": "disbursement",
+     "partner_id": "finland",
+     "amount_usd": 3687000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2023-04-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2020-04-11",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2018-07-30",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-050",
+   "mofa_ref": "MOFA/DP/2022/050",
+   "title_en": "Sukhipur Agricultural Value Chains",
+   "title_ne": "Sukhipur Krishi Mulya Shrinkhala",
+   "description_en": "Sample project for demonstration only. Supports agriculture & food security outcomes in Sukhipur, financed by European Union and implemented by Ministry of Agriculture and Livestock Development.",
+   "sector_code": "agriculture",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 50,
+   "implementing_partner": "Ministry of Agriculture and Livestock Development",
+   "start_date": "2022-11-01",
+   "end_date": "2028-11-28",
+   "agreement_date": "2022-07-03",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "eu",
+     "committed_usd": 81290000,
+     "disbursed_usd": 38915000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "siraha~sukhipur",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2022-07-03",
+     "type": "commitment",
+     "partner_id": "eu",
+     "amount_usd": 81290000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2022-09-15",
+     "type": "disbursement",
+     "partner_id": "eu",
+     "amount_usd": 6201000,
+     "note": null
+    },
+    {
+     "date": "2023-04-15",
+     "type": "disbursement",
+     "partner_id": "eu",
+     "amount_usd": 9416000,
+     "note": null
+    },
+    {
+     "date": "2024-03-15",
+     "type": "disbursement",
+     "partner_id": "eu",
+     "amount_usd": 8911000,
+     "note": null
+    },
+    {
+     "date": "2025-04-15",
+     "type": "disbursement",
+     "partner_id": "eu",
+     "amount_usd": 8336000,
+     "note": null
+    },
+    {
+     "date": "2026-01-15",
+     "type": "disbursement",
+     "partner_id": "eu",
+     "amount_usd": 6051000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2025-04-06",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2023-03-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-051",
+   "mofa_ref": "MOFA/DP/2026/051",
+   "title_en": "Bagmati Food and Nutrition Security",
+   "title_ne": "Bagmati Khadya tatha Poshan Surakshya",
+   "description_en": "Sample project for demonstration only. Supports agriculture & food security outcomes in Bagmati Province, financed by European Union and implemented by Ministry of Agriculture and Livestock Development.",
+   "sector_code": "agriculture",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 4,
+   "implementing_partner": "Ministry of Agriculture and Livestock Development",
+   "start_date": "2026-08-01",
+   "end_date": "2031-08-28",
+   "agreement_date": "2025-12-29",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "eu",
+     "committed_usd": 100700000,
+     "disbursed_usd": 3325000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "dolakha",
+     "share_pct": null
+    },
+    {
+     "area_code": "kabhrepalanchok",
+     "share_pct": null
+    },
+    {
+     "area_code": "bhaktapur",
+     "share_pct": null
+    },
+    {
+     "area_code": "kathmandu",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2025-12-29",
+     "type": "commitment",
+     "partner_id": "eu",
+     "amount_usd": 100700000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2026-04-15",
+     "type": "disbursement",
+     "partner_id": "eu",
+     "amount_usd": 3325000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-11-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 4
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-052",
+   "mofa_ref": "MOFA/DP/2026/052",
+   "title_en": "Madhesh Local Government Capacity Building",
+   "title_ne": "Madhesh Sthaniya Sarkar Kshamata Bikas",
+   "description_en": "Sample project for demonstration only. Supports governance & federalism outcomes in Madhesh Province, financed by European Union with co-financing and implemented by Ministry of Federal Affairs and General Administration.",
+   "sector_code": "governance",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 9,
+   "implementing_partner": "Provincial and Local Governance Support Programme",
+   "start_date": "2026-07-01",
+   "end_date": "2030-07-28",
+   "agreement_date": "2025-09-15",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "eu",
+     "committed_usd": 78760000,
+     "disbursed_usd": 5594000
+    },
+    {
+     "partner_id": "usa",
+     "committed_usd": 27200000,
+     "disbursed_usd": 1932000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "parsa",
+     "share_pct": null
+    },
+    {
+     "area_code": "dhanusha",
+     "share_pct": null
+    },
+    {
+     "area_code": "saptari",
+     "share_pct": null
+    },
+    {
+     "area_code": "rautahat",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2025-09-15",
+     "type": "commitment",
+     "partner_id": "eu",
+     "amount_usd": 78760000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2025-09-15",
+     "type": "commitment",
+     "partner_id": "usa",
+     "amount_usd": 27200000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2026-01-15",
+     "type": "disbursement",
+     "partner_id": "eu",
+     "amount_usd": 5594000,
+     "note": null
+    },
+    {
+     "date": "2026-03-15",
+     "type": "disbursement",
+     "partner_id": "usa",
+     "amount_usd": 1932000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-10-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-053",
+   "mofa_ref": "MOFA/DP/2025/053",
+   "title_en": "Madhesh Local Government Capacity Building",
+   "title_ne": "Madhesh Sthaniya Sarkar Kshamata Bikas",
+   "description_en": "Sample project for demonstration only. Supports governance & federalism outcomes in Madhesh Province, financed by European Union with co-financing and implemented by Ministry of Federal Affairs and General Administration.",
+   "sector_code": "governance",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 44,
+   "implementing_partner": "Ministry of Federal Affairs and General Administration",
+   "start_date": "2025-10-01",
+   "end_date": "2027-10-28",
+   "agreement_date": "2025-01-04",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "eu",
+     "committed_usd": 29160000,
+     "disbursed_usd": 12384000
+    },
+    {
+     "partner_id": "uk",
+     "committed_usd": 12880000,
+     "disbursed_usd": 5470000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "P2",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2025-01-04",
+     "type": "commitment",
+     "partner_id": "eu",
+     "amount_usd": 29160000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2025-01-04",
+     "type": "commitment",
+     "partner_id": "uk",
+     "amount_usd": 12880000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2025-11-15",
+     "type": "disbursement",
+     "partner_id": "eu",
+     "amount_usd": 6115000,
+     "note": null
+    },
+    {
+     "date": "2025-12-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 2730000,
+     "note": null
+    },
+    {
+     "date": "2026-05-15",
+     "type": "disbursement",
+     "partner_id": "uk",
+     "amount_usd": 2740000,
+     "note": null
+    },
+    {
+     "date": "2026-07-15",
+     "type": "disbursement",
+     "partner_id": "eu",
+     "amount_usd": 6269000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-07-30",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2026-01-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-054",
+   "mofa_ref": "MOFA/DP/2019/054",
+   "title_en": "Doti Transmission Line and Substations",
+   "title_ne": "Doti Prasaran Line tatha Sabstation",
+   "description_en": "Sample project for demonstration only. Supports energy outcomes in Doti, financed by Asian Development Bank and implemented by Nepal Electricity Authority.",
+   "sector_code": "energy",
+   "flow_type": "loan",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Nepal Electricity Authority",
+   "start_date": "2019-04-01",
+   "end_date": "2024-04-28",
+   "agreement_date": "2019-01-12",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "adb",
+     "committed_usd": 62800000,
+     "disbursed_usd": 55106000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "doti",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2019-01-12",
+     "type": "commitment",
+     "partner_id": "adb",
+     "amount_usd": 62800000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2019-06-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 6629000,
+     "note": null
+    },
+    {
+     "date": "2020-08-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 10156000,
+     "note": null
+    },
+    {
+     "date": "2021-11-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 10178000,
+     "note": null
+    },
+    {
+     "date": "2022-07-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 10717000,
+     "note": null
+    },
+    {
+     "date": "2023-06-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 9508000,
+     "note": null
+    },
+    {
+     "date": "2024-03-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 7918000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2024-04-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2021-04-11",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2019-07-30",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-055",
+   "mofa_ref": "MOFA/DP/2026/055",
+   "title_en": "Gandaki Integrated Urban Development",
+   "title_ne": "Gandaki Ekikrit Shahari Bikas",
+   "description_en": "Sample project for demonstration only. Supports urban development outcomes in Gandaki, financed by Asian Development Bank and implemented by Department of Urban Development and Building Construction.",
+   "sector_code": "urban",
+   "flow_type": "loan",
+   "status": "ongoing",
+   "progress_pct": 25,
+   "implementing_partner": "Department of Urban Development and Building Construction",
+   "start_date": "2026-02-01",
+   "end_date": "2029-02-28",
+   "agreement_date": "2025-11-12",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "adb",
+     "committed_usd": 148870000,
+     "disbursed_usd": 36782000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "gorkha~gandaki",
+     "share_pct": null
+    },
+    {
+     "area_code": "gorkha~gorkha",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2025-11-12",
+     "type": "commitment",
+     "partner_id": "adb",
+     "amount_usd": 148870000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2026-04-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 36782000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-06-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-056",
+   "mofa_ref": "MOFA/DP/2021/056",
+   "title_en": "Tanahu Drinking Water and Sanitation",
+   "title_ne": "Tanahu Khanepani tatha Sarsafai",
+   "description_en": "Sample project for demonstration only. Supports water & sanitation outcomes in Tanahu, financed by Asian Development Bank and implemented by Department of Water Supply and Sewerage Management.",
+   "sector_code": "water",
+   "flow_type": "loan",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Department of Water Resources and Irrigation",
+   "start_date": "2021-05-01",
+   "end_date": "2025-05-28",
+   "agreement_date": "2020-10-21",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "adb",
+     "committed_usd": 188080000,
+     "disbursed_usd": 176269000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "tanahu",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2020-10-21",
+     "type": "commitment",
+     "partner_id": "adb",
+     "amount_usd": 188080000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2021-04-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 29077000,
+     "note": null
+    },
+    {
+     "date": "2022-10-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 38923000,
+     "note": null
+    },
+    {
+     "date": "2023-11-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 41891000,
+     "note": null
+    },
+    {
+     "date": "2024-03-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 37283000,
+     "note": null
+    },
+    {
+     "date": "2025-03-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 29095000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2025-05-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2022-12-17",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2021-08-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-057",
+   "mofa_ref": "MOFA/DP/2024/057",
+   "title_en": "Parbat Motorable Bridges Programme",
+   "title_ne": "Parbat Motorbato Pul Karyakram",
+   "description_en": "Sample project for demonstration only. Supports transport outcomes in Parbat, financed by Asian Development Bank and implemented by Department of Roads.",
+   "sector_code": "transport",
+   "flow_type": "loan",
+   "status": "ongoing",
+   "progress_pct": 76,
+   "implementing_partner": "Ministry of Physical Infrastructure and Transport",
+   "start_date": "2024-01-01",
+   "end_date": "2028-01-28",
+   "agreement_date": "2023-03-08",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "adb",
+     "committed_usd": 151900000,
+     "disbursed_usd": 108060000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "parbat",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2023-03-08",
+     "type": "commitment",
+     "partner_id": "adb",
+     "amount_usd": 151900000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2024-12-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 31275000,
+     "note": null
+    },
+    {
+     "date": "2025-04-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 41760000,
+     "note": null
+    },
+    {
+     "date": "2026-03-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 35025000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2025-08-18",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2024-04-30",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-058",
+   "mofa_ref": "MOFA/DP/2027/058",
+   "title_en": "Surkhet Highway Safety and Maintenance",
+   "title_ne": "Surkhet Rajmarga Surakshya tatha Marmat",
+   "description_en": "Sample project for demonstration only. Supports transport outcomes in Surkhet, financed by Asian Development Bank and implemented by Department of Roads.",
+   "sector_code": "transport",
+   "flow_type": "grant",
+   "status": "pipeline",
+   "progress_pct": 0,
+   "implementing_partner": "Department of Local Infrastructure",
+   "start_date": "2027-09-01",
+   "end_date": "2032-09-28",
+   "agreement_date": "2027-01-07",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "adb",
+     "committed_usd": 64760000,
+     "disbursed_usd": 0
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "surkhet",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2027-01-07",
+     "type": "commitment",
+     "partner_id": "adb",
+     "amount_usd": 64760000,
+     "note": "Financing agreement signed"
+    }
+   ],
+   "updates": []
+  },
+  {
+   "id": "SAMPLE-059",
+   "mofa_ref": "MOFA/DP/2026/059",
+   "title_en": "Madhesh Solid Waste Management",
+   "title_ne": "Madhesh Thos Fohor Byabasthapan",
+   "description_en": "Sample project for demonstration only. Supports urban development outcomes in Madhesh Province, financed by Asian Development Bank and implemented by Department of Urban Development and Building Construction.",
+   "sector_code": "urban",
+   "flow_type": "loan",
+   "status": "suspended",
+   "progress_pct": 14,
+   "implementing_partner": "Department of Urban Development and Building Construction",
+   "start_date": "2026-06-01",
+   "end_date": "2029-06-28",
+   "agreement_date": "2025-12-17",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "adb",
+     "committed_usd": 77760000,
+     "disbursed_usd": 9269000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "siraha",
+     "share_pct": null
+    },
+    {
+     "area_code": "parsa",
+     "share_pct": null
+    },
+    {
+     "area_code": "mahottari",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2025-12-17",
+     "type": "commitment",
+     "partner_id": "adb",
+     "amount_usd": 77760000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2026-02-15",
+     "type": "disbursement",
+     "partner_id": "adb",
+     "amount_usd": 9269000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-08-15",
+     "body_en": "Works temporarily suspended pending resolution of land acquisition issues.",
+     "progress_pct": 14
+    },
+    {
+     "date": "2026-09-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-060",
+   "mofa_ref": "MOFA/DP/2027/060",
+   "title_en": "Nepal Flood Early Warning and Resilience",
+   "title_ne": "Nepal Badhi Purva Suchana tatha Utthanshilata",
+   "description_en": "Sample project for demonstration only. Supports disaster risk & reconstruction outcomes in all seven provinces, financed by Asian Development Bank and implemented by National Disaster Risk Reduction and Management Authority.",
+   "sector_code": "disaster",
+   "flow_type": "grant",
+   "status": "pipeline",
+   "progress_pct": 0,
+   "implementing_partner": "National Disaster Risk Reduction and Management Authority",
+   "start_date": "2027-10-01",
+   "end_date": "2032-10-28",
+   "agreement_date": "2027-04-25",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "adb",
+     "committed_usd": 103240000,
+     "disbursed_usd": 0
+    }
+   ],
+   "locations": [],
+   "transactions": [
+    {
+     "date": "2027-04-25",
+     "type": "commitment",
+     "partner_id": "adb",
+     "amount_usd": 103240000,
+     "note": "Financing agreement signed"
+    }
+   ],
+   "updates": []
+  },
+  {
+   "id": "SAMPLE-061",
+   "mofa_ref": "MOFA/DP/2022/061",
+   "title_en": "Sudurpashchim Distribution System Strengthening",
+   "title_ne": "Sudurpashchim Bitaran Pranali Sudridhikaran",
+   "description_en": "Sample project for demonstration only. Supports energy outcomes in Sudurpashchim Province, financed by World Bank and implemented by Nepal Electricity Authority.",
+   "sector_code": "energy",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Alternative Energy Promotion Centre",
+   "start_date": "2022-02-01",
+   "end_date": "2026-02-28",
+   "agreement_date": "2021-09-24",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "world-bank",
+     "committed_usd": 126380000,
+     "disbursed_usd": 113170000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "P7",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2021-09-24",
+     "type": "commitment",
+     "partner_id": "world-bank",
+     "amount_usd": 126380000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2022-07-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 18034000,
+     "note": null
+    },
+    {
+     "date": "2023-11-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 24914000,
+     "note": null
+    },
+    {
+     "date": "2024-03-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 28267000,
+     "note": null
+    },
+    {
+     "date": "2025-02-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 23907000,
+     "note": null
+    },
+    {
+     "date": "2026-10-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 18048000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-02-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2023-09-19",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2022-06-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-062",
+   "mofa_ref": "MOFA/DP/2021/062",
+   "title_en": "Achham Transmission Line and Substations",
+   "title_ne": "Achham Prasaran Line tatha Sabstation",
+   "description_en": "Sample project for demonstration only. Supports energy outcomes in Achham, financed by World Bank and implemented by Nepal Electricity Authority.",
+   "sector_code": "energy",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Alternative Energy Promotion Centre",
+   "start_date": "2021-04-01",
+   "end_date": "2026-04-28",
+   "agreement_date": "2020-08-21",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "world-bank",
+     "committed_usd": 232930000,
+     "disbursed_usd": 209296000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "achham",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2020-08-21",
+     "type": "commitment",
+     "partner_id": "world-bank",
+     "amount_usd": 232930000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2021-08-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 27120000,
+     "note": null
+    },
+    {
+     "date": "2022-05-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 34794000,
+     "note": null
+    },
+    {
+     "date": "2023-11-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 42087000,
+     "note": null
+    },
+    {
+     "date": "2024-12-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 41267000,
+     "note": null
+    },
+    {
+     "date": "2025-02-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 37271000,
+     "note": null
+    },
+    {
+     "date": "2026-10-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 26757000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-04-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2023-04-12",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2021-07-30",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-063",
+   "mofa_ref": "MOFA/DP/2016/063",
+   "title_en": "Lumbini School Sector Support",
+   "title_ne": "Lumbini Vidyalaya Kshetra Sahayog",
+   "description_en": "Sample project for demonstration only. Supports education outcomes in Lumbini Province, financed by World Bank and implemented by Centre for Education and Human Resource Development.",
+   "sector_code": "education",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "CTEVT",
+   "start_date": "2016-01-01",
+   "end_date": "2020-01-28",
+   "agreement_date": "2015-09-29",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "world-bank",
+     "committed_usd": 94040000,
+     "disbursed_usd": 88255000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "P5",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2015-09-29",
+     "type": "commitment",
+     "partner_id": "world-bank",
+     "amount_usd": 94040000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2016-10-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 16587000,
+     "note": null
+    },
+    {
+     "date": "2017-01-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 19677000,
+     "note": null
+    },
+    {
+     "date": "2018-10-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 21939000,
+     "note": null
+    },
+    {
+     "date": "2019-03-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 17028000,
+     "note": null
+    },
+    {
+     "date": "2020-06-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 13024000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2020-01-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2017-08-18",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2016-04-30",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-064",
+   "mofa_ref": "MOFA/DP/2016/064",
+   "title_en": "Nepal School Sector Support",
+   "title_ne": "Nepal Vidyalaya Kshetra Sahayog",
+   "description_en": "Sample project for demonstration only. Supports education outcomes in all seven provinces, financed by World Bank and implemented by Centre for Education and Human Resource Development.",
+   "sector_code": "education",
+   "flow_type": "loan",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "CTEVT",
+   "start_date": "2016-12-01",
+   "end_date": "2021-12-28",
+   "agreement_date": "2016-06-21",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "world-bank",
+     "committed_usd": 156780000,
+     "disbursed_usd": 134450000
+    }
+   ],
+   "locations": [],
+   "transactions": [
+    {
+     "date": "2016-06-21",
+     "type": "commitment",
+     "partner_id": "world-bank",
+     "amount_usd": 156780000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2016-07-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 19715000,
+     "note": null
+    },
+    {
+     "date": "2017-05-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 21715000,
+     "note": null
+    },
+    {
+     "date": "2018-12-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 25798000,
+     "note": null
+    },
+    {
+     "date": "2019-12-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 26550000,
+     "note": null
+    },
+    {
+     "date": "2020-05-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 25052000,
+     "note": null
+    },
+    {
+     "date": "2021-01-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 15620000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2021-12-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2018-12-12",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2017-03-31",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-065",
+   "mofa_ref": "MOFA/DP/2021/065",
+   "title_en": "Madhesh Landslide Risk Reduction",
+   "title_ne": "Madhesh Pahiro Jokhim Nyunikaran",
+   "description_en": "Sample project for demonstration only. Supports disaster risk & reconstruction outcomes in Madhesh Province, financed by World Bank and implemented by National Disaster Risk Reduction and Management Authority.",
+   "sector_code": "disaster",
+   "flow_type": "loan",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "National Disaster Risk Reduction and Management Authority",
+   "start_date": "2021-09-01",
+   "end_date": "2025-09-28",
+   "agreement_date": "2021-02-05",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "world-bank",
+     "committed_usd": 264580000,
+     "disbursed_usd": 246213000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "mahottari",
+     "share_pct": null
+    },
+    {
+     "area_code": "saptari",
+     "share_pct": null
+    },
+    {
+     "area_code": "siraha",
+     "share_pct": null
+    },
+    {
+     "area_code": "dhanusha",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2021-02-05",
+     "type": "commitment",
+     "partner_id": "world-bank",
+     "amount_usd": 264580000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2021-08-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 42461000,
+     "note": null
+    },
+    {
+     "date": "2022-05-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 55691000,
+     "note": null
+    },
+    {
+     "date": "2023-02-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 50175000,
+     "note": null
+    },
+    {
+     "date": "2024-01-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 51342000,
+     "note": null
+    },
+    {
+     "date": "2025-12-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 46544000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2025-09-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2023-04-19",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2021-12-30",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-066",
+   "mofa_ref": "MOFA/DP/2019/066",
+   "title_en": "Gorkha Inclusive Livelihoods",
+   "title_ne": "Gorkha Samabeshi Jeevikopārjan",
+   "description_en": "Sample project for demonstration only. Supports social protection & gender outcomes in Gorkha, financed by World Bank and implemented by Ministry of Women, Children and Senior Citizens.",
+   "sector_code": "social",
+   "flow_type": "loan",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Ministry of Women, Children and Senior Citizens",
+   "start_date": "2019-08-01",
+   "end_date": "2021-08-28",
+   "agreement_date": "2019-02-03",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "world-bank",
+     "committed_usd": 241970000,
+     "disbursed_usd": 212373000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "gorkha",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2019-02-03",
+     "type": "commitment",
+     "partner_id": "world-bank",
+     "amount_usd": 241970000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2019-04-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 58486000,
+     "note": null
+    },
+    {
+     "date": "2020-07-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 83998000,
+     "note": null
+    },
+    {
+     "date": "2021-06-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 69889000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2021-08-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2020-05-30",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2019-11-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-067",
+   "mofa_ref": "MOFA/DP/2025/067",
+   "title_en": "Koshi Technical and Vocational Skills",
+   "title_ne": "Koshi Prabidhik tatha Byabasayik Seep",
+   "description_en": "Sample project for demonstration only. Supports education outcomes in Koshi Province, financed by World Bank and implemented by Centre for Education and Human Resource Development.",
+   "sector_code": "education",
+   "flow_type": "loan",
+   "status": "ongoing",
+   "progress_pct": 58,
+   "implementing_partner": "CTEVT",
+   "start_date": "2025-01-01",
+   "end_date": "2028-01-28",
+   "agreement_date": "2024-10-22",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "world-bank",
+     "committed_usd": 228370000,
+     "disbursed_usd": 106683000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "ilam",
+     "share_pct": null
+    },
+    {
+     "area_code": "bhojpur",
+     "share_pct": null
+    },
+    {
+     "area_code": "taplejung",
+     "share_pct": null
+    },
+    {
+     "area_code": "morang",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2024-10-22",
+     "type": "commitment",
+     "partner_id": "world-bank",
+     "amount_usd": 228370000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2025-03-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 49955000,
+     "note": null
+    },
+    {
+     "date": "2026-03-15",
+     "type": "disbursement",
+     "partner_id": "world-bank",
+     "amount_usd": 56728000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-03-25",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2025-05-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-068",
+   "mofa_ref": "MOFA/DP/2027/068",
+   "title_en": "Dolakha Earthquake Housing Reconstruction",
+   "title_ne": "Dolakha Bhukampa Aawas Punarnirman",
+   "description_en": "Sample project for demonstration only. Supports disaster risk & reconstruction outcomes in Dolakha, financed by UNDP and implemented by National Disaster Risk Reduction and Management Authority.",
+   "sector_code": "disaster",
+   "flow_type": "grant",
+   "status": "pipeline",
+   "progress_pct": 0,
+   "implementing_partner": "National Reconstruction Authority (legacy)",
+   "start_date": "2027-07-01",
+   "end_date": "2034-07-28",
+   "agreement_date": "2027-04-22",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "undp",
+     "committed_usd": 10490000,
+     "disbursed_usd": 0
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "dolakha",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2027-04-22",
+     "type": "commitment",
+     "partner_id": "undp",
+     "amount_usd": 10490000,
+     "note": "Financing agreement signed"
+    }
+   ],
+   "updates": []
+  },
+  {
+   "id": "SAMPLE-069",
+   "mofa_ref": "MOFA/DP/2025/069",
+   "title_en": "Provincial Public Finance: Sudurpashchim",
+   "title_ne": "Pradesh Sarvajanik Bitta: Sudurpashchim",
+   "description_en": "Sample project for demonstration only. Supports governance & federalism outcomes in Sudurpashchim Province, financed by UNDP and implemented by Ministry of Federal Affairs and General Administration.",
+   "sector_code": "governance",
+   "flow_type": "technical_assistance",
+   "status": "ongoing",
+   "progress_pct": 27,
+   "implementing_partner": "Provincial and Local Governance Support Programme",
+   "start_date": "2025-11-01",
+   "end_date": "2028-11-28",
+   "agreement_date": "2025-04-01",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "undp",
+     "committed_usd": 2570000,
+     "disbursed_usd": 511000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "darchula",
+     "share_pct": null
+    },
+    {
+     "area_code": "doti",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2025-01-15",
+     "type": "disbursement",
+     "partner_id": "undp",
+     "amount_usd": 256000,
+     "note": null
+    },
+    {
+     "date": "2025-04-01",
+     "type": "commitment",
+     "partner_id": "undp",
+     "amount_usd": 2570000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2026-07-15",
+     "type": "disbursement",
+     "partner_id": "undp",
+     "amount_usd": 255000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2026-03-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-070",
+   "mofa_ref": "MOFA/DP/2027/070",
+   "title_en": "Madhesh Watershed Management",
+   "title_ne": "Madhesh Jalaadhar Byabasthapan",
+   "description_en": "Sample project for demonstration only. Supports environment & climate outcomes in Madhesh Province, financed by UNDP and implemented by Ministry of Forests and Environment.",
+   "sector_code": "climate",
+   "flow_type": "technical_assistance",
+   "status": "pipeline",
+   "progress_pct": 0,
+   "implementing_partner": "Department of Hydrology and Meteorology",
+   "start_date": "2027-02-01",
+   "end_date": "2032-02-28",
+   "agreement_date": "2026-06-29",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "undp",
+     "committed_usd": 7870000,
+     "disbursed_usd": 0
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "dhanusha",
+     "share_pct": null
+    },
+    {
+     "area_code": "siraha",
+     "share_pct": null
+    },
+    {
+     "area_code": "parsa",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2026-06-29",
+     "type": "commitment",
+     "partner_id": "undp",
+     "amount_usd": 7870000,
+     "note": "Financing agreement signed"
+    }
+   ],
+   "updates": []
+  },
+  {
+   "id": "SAMPLE-071",
+   "mofa_ref": "MOFA/DP/2016/071",
+   "title_en": "Gandaki Local Government Capacity Building",
+   "title_ne": "Gandaki Sthaniya Sarkar Kshamata Bikas",
+   "description_en": "Sample project for demonstration only. Supports governance & federalism outcomes in Gandaki Province, financed by UNDP and implemented by Ministry of Federal Affairs and General Administration.",
+   "sector_code": "governance",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Provincial and Local Governance Support Programme",
+   "start_date": "2016-09-01",
+   "end_date": "2022-09-28",
+   "agreement_date": "2016-06-18",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "undp",
+     "committed_usd": 6650000,
+     "disbursed_usd": 6306000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "P4",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2016-06-18",
+     "type": "commitment",
+     "partner_id": "undp",
+     "amount_usd": 6650000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2016-07-15",
+     "type": "disbursement",
+     "partner_id": "undp",
+     "amount_usd": 613000,
+     "note": null
+    },
+    {
+     "date": "2017-07-15",
+     "type": "disbursement",
+     "partner_id": "undp",
+     "amount_usd": 923000,
+     "note": null
+    },
+    {
+     "date": "2018-03-15",
+     "type": "disbursement",
+     "partner_id": "undp",
+     "amount_usd": 1024000,
+     "note": null
+    },
+    {
+     "date": "2019-05-15",
+     "type": "disbursement",
+     "partner_id": "undp",
+     "amount_usd": 1200000,
+     "note": null
+    },
+    {
+     "date": "2020-06-15",
+     "type": "disbursement",
+     "partner_id": "undp",
+     "amount_usd": 1073000,
+     "note": null
+    },
+    {
+     "date": "2021-09-15",
+     "type": "disbursement",
+     "partner_id": "undp",
+     "amount_usd": 831000,
+     "note": null
+    },
+    {
+     "date": "2022-08-15",
+     "type": "disbursement",
+     "partner_id": "undp",
+     "amount_usd": 642000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2022-09-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2019-02-05",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2016-12-30",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-072",
+   "mofa_ref": "MOFA/DP/2019/072",
+   "title_en": "Nepal Maternal and Newborn Health",
+   "title_ne": "Nepal Matri tatha Navashishu Swasthya",
+   "description_en": "Sample project for demonstration only. Supports health outcomes in all seven provinces, financed by UNICEF and implemented by Ministry of Health and Population.",
+   "sector_code": "health",
+   "flow_type": "in_kind",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Department of Health Services",
+   "start_date": "2019-05-01",
+   "end_date": "2024-05-28",
+   "agreement_date": "2019-01-24",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "unicef",
+     "committed_usd": 2190000,
+     "disbursed_usd": 2109000
+    }
+   ],
+   "locations": [],
+   "transactions": [
+    {
+     "date": "2019-01-24",
+     "type": "commitment",
+     "partner_id": "unicef",
+     "amount_usd": 2190000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2019-10-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 327000,
+     "note": null
+    },
+    {
+     "date": "2020-02-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 375000,
+     "note": null
+    },
+    {
+     "date": "2021-09-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 383000,
+     "note": null
+    },
+    {
+     "date": "2022-06-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 410000,
+     "note": null
+    },
+    {
+     "date": "2023-04-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 341000,
+     "note": null
+    },
+    {
+     "date": "2024-07-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 273000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2024-05-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2021-05-11",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2019-08-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-073",
+   "mofa_ref": "MOFA/DP/2021/073",
+   "title_en": "Rainadevi Chhahara Women's Economic Empowerment",
+   "title_ne": "Rainadevi Chhahara Mahila Aarthik Sashaktikaran",
+   "description_en": "Sample project for demonstration only. Supports social protection & gender outcomes in Rainadevi Chhahara, financed by UNICEF and implemented by Ministry of Women, Children and Senior Citizens.",
+   "sector_code": "social",
+   "flow_type": "grant",
+   "status": "ongoing",
+   "progress_pct": 62,
+   "implementing_partner": "Department of National ID and Civil Registration",
+   "start_date": "2021-08-01",
+   "end_date": "2028-08-28",
+   "agreement_date": "2021-05-14",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "unicef",
+     "committed_usd": 1920000,
+     "disbursed_usd": 1149000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "palpa~rainadevi-chhahara",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2021-05-14",
+     "type": "commitment",
+     "partner_id": "unicef",
+     "amount_usd": 1920000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2021-11-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 154000,
+     "note": null
+    },
+    {
+     "date": "2022-10-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 205000,
+     "note": null
+    },
+    {
+     "date": "2023-07-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 214000,
+     "note": null
+    },
+    {
+     "date": "2024-03-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 211000,
+     "note": null
+    },
+    {
+     "date": "2025-11-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 204000,
+     "note": null
+    },
+    {
+     "date": "2026-10-15",
+     "type": "disbursement",
+     "partner_id": "unicef",
+     "amount_usd": 161000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2024-05-30",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2021-11-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-074",
+   "mofa_ref": "MOFA/DP/2027/074",
+   "title_en": "Syangja Maternal and Newborn Health",
+   "title_ne": "Syangja Matri tatha Navashishu Swasthya",
+   "description_en": "Sample project for demonstration only. Supports health outcomes in Syangja, financed by UNICEF and implemented by Ministry of Health and Population.",
+   "sector_code": "health",
+   "flow_type": "grant",
+   "status": "pipeline",
+   "progress_pct": 0,
+   "implementing_partner": "Department of Health Services",
+   "start_date": "2027-03-01",
+   "end_date": "2031-03-28",
+   "agreement_date": "2026-09-29",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "unicef",
+     "committed_usd": 3270000,
+     "disbursed_usd": 0
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "syangja",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2026-09-29",
+     "type": "commitment",
+     "partner_id": "unicef",
+     "amount_usd": 3270000,
+     "note": "Financing agreement signed"
+    }
+   ],
+   "updates": []
+  },
+  {
+   "id": "SAMPLE-075",
+   "mofa_ref": "MOFA/DP/2023/075",
+   "title_en": "Darchula Food and Nutrition Security",
+   "title_ne": "Darchula Khadya tatha Poshan Surakshya",
+   "description_en": "Sample project for demonstration only. Supports agriculture & food security outcomes in Darchula, financed by World Food Programme and implemented by Ministry of Agriculture and Livestock Development.",
+   "sector_code": "agriculture",
+   "flow_type": "in_kind",
+   "status": "ongoing",
+   "progress_pct": 47,
+   "implementing_partner": "Provincial Ministry of Land Management and Agriculture",
+   "start_date": "2023-01-01",
+   "end_date": "2030-01-28",
+   "agreement_date": "2022-05-31",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "wfp",
+     "committed_usd": 15030000,
+     "disbursed_usd": 5195000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "darchula",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2022-05-31",
+     "type": "commitment",
+     "partner_id": "wfp",
+     "amount_usd": 15030000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2023-09-15",
+     "type": "disbursement",
+     "partner_id": "wfp",
+     "amount_usd": 1007000,
+     "note": null
+    },
+    {
+     "date": "2024-06-15",
+     "type": "disbursement",
+     "partner_id": "wfp",
+     "amount_usd": 1580000,
+     "note": null
+    },
+    {
+     "date": "2025-06-15",
+     "type": "disbursement",
+     "partner_id": "wfp",
+     "amount_usd": 1392000,
+     "note": null
+    },
+    {
+     "date": "2026-04-15",
+     "type": "disbursement",
+     "partner_id": "wfp",
+     "amount_usd": 1216000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2025-10-30",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2023-05-01",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-076",
+   "mofa_ref": "MOFA/DP/2020/076",
+   "title_en": "Kushma Technical and Vocational Skills",
+   "title_ne": "Kushma Prabidhik tatha Byabasayik Seep",
+   "description_en": "Sample project for demonstration only. Supports education outcomes in Kushma, financed by World Food Programme and implemented by Centre for Education and Human Resource Development.",
+   "sector_code": "education",
+   "flow_type": "in_kind",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "CTEVT",
+   "start_date": "2020-08-01",
+   "end_date": "2025-08-28",
+   "agreement_date": "2020-04-03",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "wfp",
+     "committed_usd": 23880000,
+     "disbursed_usd": 23756000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "parbat~kushma",
+     "share_pct": null
+    },
+    {
+     "area_code": "parbat~jaljala",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2020-04-03",
+     "type": "commitment",
+     "partner_id": "wfp",
+     "amount_usd": 23880000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2020-12-15",
+     "type": "disbursement",
+     "partner_id": "wfp",
+     "amount_usd": 3356000,
+     "note": null
+    },
+    {
+     "date": "2021-03-15",
+     "type": "disbursement",
+     "partner_id": "wfp",
+     "amount_usd": 3840000,
+     "note": null
+    },
+    {
+     "date": "2022-04-15",
+     "type": "disbursement",
+     "partner_id": "wfp",
+     "amount_usd": 4767000,
+     "note": null
+    },
+    {
+     "date": "2023-04-15",
+     "type": "disbursement",
+     "partner_id": "wfp",
+     "amount_usd": 4230000,
+     "note": null
+    },
+    {
+     "date": "2024-07-15",
+     "type": "disbursement",
+     "partner_id": "wfp",
+     "amount_usd": 4507000,
+     "note": null
+    },
+    {
+     "date": "2025-06-15",
+     "type": "disbursement",
+     "partner_id": "wfp",
+     "amount_usd": 3056000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2025-08-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2022-08-12",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2020-11-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-077",
+   "mofa_ref": "MOFA/DP/2018/077",
+   "title_en": "Sudurpashchim High-Value Crops and Market Access",
+   "title_ne": "Sudurpashchim Uchcha Mulya Bali tatha Bazar Pahunch",
+   "description_en": "Sample project for demonstration only. Supports agriculture & food security outcomes in Sudurpashchim Province, financed by IFAD and implemented by Ministry of Agriculture and Livestock Development.",
+   "sector_code": "agriculture",
+   "flow_type": "grant",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Ministry of Agriculture and Livestock Development",
+   "start_date": "2018-05-01",
+   "end_date": "2025-05-28",
+   "agreement_date": "2018-02-26",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "ifad",
+     "committed_usd": 19220000,
+     "disbursed_usd": 18102000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "baitadi",
+     "share_pct": null
+    },
+    {
+     "area_code": "achham",
+     "share_pct": null
+    },
+    {
+     "area_code": "kanchanpur",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2018-02-26",
+     "type": "commitment",
+     "partner_id": "ifad",
+     "amount_usd": 19220000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2018-09-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 1557000,
+     "note": null
+    },
+    {
+     "date": "2019-07-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 2107000,
+     "note": null
+    },
+    {
+     "date": "2020-10-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 2662000,
+     "note": null
+    },
+    {
+     "date": "2021-01-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 2624000,
+     "note": null
+    },
+    {
+     "date": "2022-11-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 2883000,
+     "note": null
+    },
+    {
+     "date": "2023-08-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 2734000,
+     "note": null
+    },
+    {
+     "date": "2024-03-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 1957000,
+     "note": null
+    },
+    {
+     "date": "2025-03-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 1578000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2025-05-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2021-02-27",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2018-08-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  },
+  {
+   "id": "SAMPLE-078",
+   "mofa_ref": "MOFA/DP/2017/078",
+   "title_en": "Lumbini High-Value Crops and Market Access",
+   "title_ne": "Lumbini Uchcha Mulya Bali tatha Bazar Pahunch",
+   "description_en": "Sample project for demonstration only. Supports agriculture & food security outcomes in Lumbini Province, financed by IFAD and implemented by Ministry of Agriculture and Livestock Development.",
+   "sector_code": "agriculture",
+   "flow_type": "loan",
+   "status": "completed",
+   "progress_pct": 100,
+   "implementing_partner": "Provincial Ministry of Land Management and Agriculture",
+   "start_date": "2017-03-01",
+   "end_date": "2022-03-28",
+   "agreement_date": "2016-06-18",
+   "source": "Sample data generated for the Phase 1 prototype",
+   "links": [],
+   "is_sample": true,
+   "funding": [
+    {
+     "partner_id": "ifad",
+     "committed_usd": 24070000,
+     "disbursed_usd": 21326000
+    }
+   ],
+   "locations": [
+    {
+     "area_code": "pyuthan",
+     "share_pct": null
+    },
+    {
+     "area_code": "dang",
+     "share_pct": null
+    }
+   ],
+   "transactions": [
+    {
+     "date": "2016-06-18",
+     "type": "commitment",
+     "partner_id": "ifad",
+     "amount_usd": 24070000,
+     "note": "Financing agreement signed"
+    },
+    {
+     "date": "2017-08-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 2943000,
+     "note": null
+    },
+    {
+     "date": "2018-08-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 3596000,
+     "note": null
+    },
+    {
+     "date": "2019-11-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 4314000,
+     "note": null
+    },
+    {
+     "date": "2020-02-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 3946000,
+     "note": null
+    },
+    {
+     "date": "2021-08-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 4092000,
+     "note": null
+    },
+    {
+     "date": "2022-11-15",
+     "type": "disbursement",
+     "partner_id": "ifad",
+     "amount_usd": 2435000,
+     "note": null
+    }
+   ],
+   "updates": [
+    {
+     "date": "2022-03-28",
+     "body_en": "Physical works completed and handed over. Completion report submitted.",
+     "progress_pct": 100
+    },
+    {
+     "date": "2019-03-12",
+     "body_en": "Mid-term review completed. Works on schedule; procurement for the second package is under way.",
+     "progress_pct": 40
+    },
+    {
+     "date": "2017-06-29",
+     "body_en": "Project management unit established and inception workshop held with the local government.",
+     "progress_pct": 5
+    }
+   ]
+  }
+ ],
+ "fx": {
+  "2015": 102.4,
+  "2016": 107.4,
+  "2017": 104.5,
+  "2018": 108.9,
+  "2019": 112.6,
+  "2020": 118.3,
+  "2021": 117.9,
+  "2022": 125.3,
+  "2023": 132.1,
+  "2024": 133.9,
+  "2025": 137.6,
+  "2026": 140.2
+ }
+}

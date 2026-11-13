@@ -1,26 +1,150 @@
 @import "tailwindcss";
+@import "flag-icons/css/flag-icons.min.css";
 
+/* Lowy-derived palette (plan §5.5). Dark navy chrome; light variant for Data/Project pages. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #16202b;
+  --bg-2: #1b2632;
+  --panel: #232d3a;
+  --panel-2: #283948;
+  --border: #34495a;
+  --text: #eaf0f5;
+  --muted: #8b9fae;
+  --teal: #4ebeca;
+  --teal-dark: #2e8593;
+  --teal-hover: #49a9b9;
+  --blue: #2d90f2;
+  --st-pipeline: #8b9fae;
+  --st-ongoing: #4ebeca;
+  --st-completed: #5cc489;
+  --st-suspended: #e07a5f;
+  --sample: #f2c14e;
+
+  /* light surfaces (Data / Project pages) */
+  --l-bg: #f3f6f8;
+  --l-panel: #ffffff;
+  --l-border: #dbe3e9;
+  --l-text: #16202b;
+  --l-muted: #5d7080;
+  --l-teal: #23808e;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-panel: var(--panel);
+  --color-panel-2: var(--panel-2);
+  --color-line: var(--border);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-teal: var(--teal);
+  --color-teal-dark: var(--teal-dark);
+  --color-teal-hover: var(--teal-hover);
+  --color-blue: var(--blue);
+  --color-pipeline: var(--st-pipeline);
+  --color-ongoing: var(--st-ongoing);
+  --color-completed: var(--st-completed);
+  --color-suspended: var(--st-suspended);
+  --color-sample: var(--sample);
+  --color-l-bg: var(--l-bg);
+  --color-l-panel: var(--l-panel);
+  --color-l-border: var(--l-border);
+  --color-l-text: var(--l-text);
+  --color-l-muted: var(--l-muted);
+  --color-l-teal: var(--l-teal);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display-face), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* thin scrollbars on dark panels */
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+/* Map background: soft teal glow like Lowy's map card */
+.map-stage {
+  background:
+    radial-gradient(ellipse 70% 60% at 55% 45%, #23687a 0%, #1b4b5a 45%, #163846 75%, #132f3b 100%);
+}
+
+/* flag-icons as round chips */
+.flag-round {
+  border-radius: 9999px;
+  background-size: cover;
+  box-shadow: 0 0 0 1.5px rgba(234, 240, 245, 0.55);
+}
+
+.maplibregl-ctrl-attrib {
+  background: rgba(22, 32, 43, 0.6) !important;
+  color: var(--muted) !important;
+  font-size: 10px;
+}
+.maplibregl-ctrl-attrib a {
+  color: var(--muted) !important;
+}
+
+/* driver.js tour, themed */
+.driver-popover {
+  background: var(--panel-2) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border);
+  border-radius: 12px !important;
+  max-width: 340px !important;
+}
+.driver-popover-title {
+  font-size: 17px !important;
+  font-weight: 600 !important;
+}
+.driver-popover-description {
+  color: #c9d6e0 !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+.driver-popover-arrow {
+  border-color: var(--panel-2) !important;
+  border-top-color: transparent !important;
+  border-left-color: transparent !important;
+}
+.driver-popover-navigation-btns button {
+  background: var(--teal) !important;
+  color: #0f1a22 !important;
+  text-shadow: none !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  padding: 6px 12px !important;
+  font-weight: 600 !important;
+}
+.driver-popover-navigation-btns .driver-popover-prev-btn {
+  background: transparent !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+}
+.driver-popover-progress-text,
+.driver-popover-close-btn {
+  color: var(--muted) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }

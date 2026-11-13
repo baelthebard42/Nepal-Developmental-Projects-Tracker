@@ -2,6 +2,8 @@
 
 An interactive map of development projects funded by Nepal's international partners, built for the Ministry of Foreign Affairs. Design and flow follow the Lowy Institute Pacific Aid Map, adapted to Nepal's 7 provinces, 77 districts and 753 palikas.
 
+**Live:** https://nepal-projects-map.vercel.app. Every push to `main` deploys to production automatically on Vercel, and other branches get preview URLs.
+
 **Status: Phase 1 prototype.** All project figures are generated **sample data** and are labelled as such in the interface.
 
 The full plan is in [docs/PLAN.md](docs/PLAN.md).

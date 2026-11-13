@@ -5,12 +5,14 @@ import type { ClientConfig } from "pg";
 
 export function readEnv(file = path.resolve(__dirname, "../../.env")): Record<string, string> {
   const out: Record<string, string> = {};
-  if (!fs.existsSync(file)) return out;
-  for (const line of fs.readFileSync(file, "utf8").split(/\r?\n/)) {
+  // .env is optional (CI has none): real environment variables are always merged in below
+  const lines = fs.existsSync(file) ? fs.readFileSync(file, "utf8").split(/\r?\n/) : [];
+  for (const line of lines) {
     const m = line.match(/^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)$/);
     if (!m) continue;
     out[m[1]] = m[2].trim().replace(/^["']|["']$/g, "");
   }
+  // process env wins over .env
   return { ...out, ...Object.fromEntries(Object.entries(process.env).filter(([, v]) => v != null)) as Record<string, string> };
 }
 
@@ -18,7 +20,7 @@ export function readEnv(file = path.resolve(__dirname, "../../.env")): Record<st
 export function pgConfig(): ClientConfig {
   const env = readEnv();
   const url = env.SUPABASE_DB_CONNECTION_STR || env.DATABASE_URL;
-  if (!url) throw new Error("SUPABASE_DB_CONNECTION_STR missing in .env");
+  if (!url) throw new Error("SUPABASE_DB_CONNECTION_STR is not set (environment variable or .env)");
   const m = url.match(/^postgres(?:ql)?:\/\/([^:]+):(.*)@([^@/:]+)(?::(\d+))?\/([^?]+)/);
   if (!m) throw new Error("Could not parse SUPABASE_DB_CONNECTION_STR");
   const [, user, password, host, port, database] = m;

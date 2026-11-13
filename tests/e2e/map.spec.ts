@@ -53,12 +53,18 @@ test.describe("map page", () => {
     await dialog.getByRole("checkbox", { name: /Japan/ }).click();
     await dialog.getByRole("button", { name: /Show results/ }).click();
     await expect(page).toHaveURL(/partners=japan/);
-    await expect(page.locator("#counters")).not.toHaveText(before);
-    // the same URL reproduces the view
-    await page.reload();
-    await expect(page.getByRole("button", { name: "Japan" }).first()).toBeVisible();
-    await page.getByRole("button", { name: "Clear filters" }).click();
-    await expect(page).not.toHaveURL(/partners=/);
+    const filtered = await page.locator("#counters").innerText();
+    expect(filtered).not.toBe(before);
+    // opening the shared link in a fresh page reproduces the view
+    const shared = page.url();
+    const other = await page.context().newPage();
+    await other.goto(shared);
+    await expect(other.getByRole("button", { name: /Japan/ }).first()).toBeVisible();
+    await expect.poll(() => other.locator("#counters").innerText()).toBe(filtered);
+    await other.getByRole("button", { name: "Clear filters" }).click();
+    await expect(other).not.toHaveURL(/partners=/);
+    await expect.poll(() => other.locator("#counters").innerText()).toBe(before);
+    await other.close();
   });
 
   test("year: clicking a bar in the trend chart filters to that year", async ({ page }) => {
